@@ -1,5 +1,7 @@
-https://docs.microsoft.com/en-us/visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension-via-command-line?view=vs-2017
+echo off
 
-cd C:\Users\gtrev\Source\Repos\OpenInApp\src\packages\Microsoft.VSSDK.BuildTools.15.8.3252\tools\vssdk\bin
+CD C:\Program Files\Microsoft Visual Studio\2022\Preview\VSSDK\VisualStudioIntegration\Tools\Bin
 
-.\VsixPublisher.exe publish -payload "..\..\..\..\..\OpenInPaintDotNet\bin\debug\OpenInAppPaintDotNet.vsix"                          -publishManifest "..\..\..\..\..\OpenInPaintDotNet\vs-publish.json"               -personalAccessToken "vsmp_pat"
+VsixPublisher.exe publish -payload "D:\_git\OpenInApp\Src\OpenInApp\bin\Debug\OpenInApp.vsix" -publishManifest "D:\_git\OpenInApp\Src\VsmpPublish.json" -personalAccessToken "vsmp_pat"
+
+REM https://docs.microsoft.com/en-us/visualstudio/extensibility/walkthrough-publishing-a-visual-studio-extension-via-command-line?view=vs-2019
