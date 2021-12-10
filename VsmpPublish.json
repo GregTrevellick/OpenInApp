@@ -2,39 +2,39 @@
   "$schema": "http://json.schemastore.org/vsix-publish",
   "assetFiles": [
     {
-      "pathOnDisk": "\\VisualStudioMarketPlaceAssets\\Generic_ReadMeScreenShot_OptionsGeneral.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\VisualStudioMarketPlaceAssets\\Generic_ReadMeScreenShot_OptionsGeneral.png",
       "targetPath": "Generic_ReadMeScreenShot_OptionsGeneral.png"
     },
     {
-      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\Generic_ReadMeScreenShot_WarningLargeQuantity.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\VisualStudioMarketPlaceAssets\\Generic_ReadMeScreenShot_WarningLargeQuantity.png",
       "targetPath": "Generic_ReadMeScreenShot_WarningLargeQuantity.png"
     },
     {
-      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\Generic_ReadMeScreenShot_WarningNonTypical.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\VisualStudioMarketPlaceAssets\\Generic_ReadMeScreenShot_WarningNonTypical.png",
       "targetPath": "Generic_ReadMeScreenShot_WarningNonTypical.png"
     },
     {
-      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ReadMeScreenShot_CodeEditorWindow.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\VisualStudioMarketPlaceAssets\\PaintDotNet\\ReadMeScreenShot_CodeEditorWindow.png",
       "targetPath": "ReadMeScreenShot_CodeEditorWindow.png"
     },
     {
-      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ReadMeScreenShot_FolderNode.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\VisualStudioMarketPlaceAssets\\PaintDotNet\\ReadMeScreenShot_FolderNode.png",
       "targetPath": "ReadMeScreenShot_FolderNode.png"
     },
     {
-      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ReadMeScreenShot_ItemNode.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\VisualStudioMarketPlaceAssets\\PaintDotNet\\ReadMeScreenShot_ItemNode.png",
       "targetPath": "ReadMeScreenShot_ItemNode.png"
     },
     {
-      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ReadMeScreenShot_ProjNode.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\VisualStudioMarketPlaceAssets\\PaintDotNet\\ReadMeScreenShot_ProjNode.png",
       "targetPath": "ReadMeScreenShot_ProjNode.png"
     },
     {
-      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ThirdPartyLogo.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\VisualStudioMarketPlaceAssets\\PaintDotNet\\ThirdPartyLogo.png",
       "targetPath": "ThirdPartyLogo.png"
     },
     {
-      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ThirdPartyScreenShot.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\VisualStudioMarketPlaceAssets\\PaintDotNet\\ThirdPartyScreenShot.png",
       "targetPath": "ThirdPartyScreenShot.png"
     }
   ],
@@ -46,7 +46,7 @@
   "identity": {
     "internalName": "OpenInPaintNet"
   },
-  "overview": "\\VisualStudioMarketPlaceAssets\\PaintDotNet\\README.md",
+  "overview": "D:\\_git\\OpenInApp\\VisualStudioMarketPlaceAssets\\PaintDotNet\\README.md",
   "priceCategory": "free",
   "publisher": "GregTrevellick",
   "private": false,
