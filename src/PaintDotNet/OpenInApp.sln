@@ -20,8 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generic", "Generic", "{0050
 		..\..\CHANGELOG.md = ..\..\CHANGELOG.md
 		..\..\greenkeeper.json = ..\..\greenkeeper.json
 		..\..\LICENSE.txt = ..\..\LICENSE.txt
-		..\..\publish.txt = ..\..\publish.txt
 		..\..\renovate.json = ..\..\renovate.json
+		..\..\vsmp_publish.bat = ..\..\vsmp_publish.bat
 	EndProjectSection
 EndProject
 Global
