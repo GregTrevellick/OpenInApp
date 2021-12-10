@@ -3,14 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHubAssets", "GitHubAssets", "{D0240FDC-C28B-406B-A2B3-D664C41A7517}"
-	ProjectSection(SolutionItems) = preProject
-		..\CHANGELOG.md = ..\CHANGELOG.md
-		..\chart_github.ioOpenInApp.Launcher.png = ..\chart_github.ioOpenInApp.Launcher.png
-		..\Generic_ReadMeAnimatedUsage.gif = ..\Generic_ReadMeAnimatedUsage.gif
-		..\LICENSE.txt = ..\LICENSE.txt
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenInApp", "OpenInApp\OpenInApp.csproj", "{0B1434B0-FA30-469C-8E25-BE99F2D6AE01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1F3D0298-4C07-41FB-92CC-56EEFAB440C2}"
