@@ -1,25 +1,55 @@
 {
   "$schema": "http://json.schemastore.org/vsix-publish",
-  "assetFiles": [ //images used in VsmpReadMe.md
+  "assetFiles": [
     {
-      "pathOnDisk": "..\\Src\\ItemTemplate.VsixPackage\\Resources\\screen0.png",
-      "targetPath": "screen0.png"
+      "pathOnDisk": "\\VisualStudioMarketPlaceAssets\\Generic_ReadMeScreenShot_OptionsGeneral.png",
+      "targetPath": "Generic_ReadMeScreenShot_OptionsGeneral.png"
     },
     {
-      "pathOnDisk": "..\\Src\\ItemTemplate.VsixPackage\\Resources\\screen1.png",
-      "targetPath": "screen1.png"
+      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\Generic_ReadMeScreenShot_WarningLargeQuantity.png",
+      "targetPath": "Generic_ReadMeScreenShot_WarningLargeQuantity.png"
+    },
+    {
+      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\Generic_ReadMeScreenShot_WarningNonTypical.png",
+      "targetPath": "Generic_ReadMeScreenShot_WarningNonTypical.png"
+    },
+    {
+      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ReadMeScreenShot_CodeEditorWindow.png",
+      "targetPath": "ReadMeScreenShot_CodeEditorWindow.png"
+    },
+    {
+      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ReadMeScreenShot_FolderNode.png",
+      "targetPath": "ReadMeScreenShot_FolderNode.png"
+    },
+    {
+      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ReadMeScreenShot_ItemNode.png",
+      "targetPath": "ReadMeScreenShot_ItemNode.png"
+    },
+    {
+      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ReadMeScreenShot_ProjNode.png",
+      "targetPath": "ReadMeScreenShot_ProjNode.png"
+    },
+    {
+      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ThirdPartyLogo.png",
+      "targetPath": "ThirdPartyLogo.png"
+    },
+    {
+      "pathOnDisk": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\ThirdPartyScreenShot.png",
+      "targetPath": "ThirdPartyScreenShot.png"
     }
   ],
   "categories": [
-    "coding"
+    "Coding",
+    "Modeling",
+    "Other"
   ],
   "identity": {
-    "internalName": "ItemTemplateSqlScriptAgentJob"
+    "internalName": "OpenInPaintNet"
   },
-  "overview": "..\\Src\\VsmpReadMe.md", 
+  "overview": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\README.md",
   "priceCategory": "free",
   "publisher": "GregTrevellick",
   "private": false,
   "qna": true,
-  "repo": "https://github.com/GregTrevellick/VsixItemTemplateSqlScriptAgentJob"
+  "repo": "https://github.com/GregTrevellick/OpenInApp.Launcher"
 }

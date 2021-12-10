@@ -27,6 +27,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generic", "Generic", "{0050
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VisualStudioMarketPlaceAssets", "VisualStudioMarketPlaceAssets", "{E2459CF3-3990-4279-BE3B-284A703CCFC6}"
 	ProjectSection(SolutionItems) = preProject
+		..\..\VisualStudioMarketPlaceAssets\Generic_ReadMeScreenShot_OptionsGeneral.png = ..\..\VisualStudioMarketPlaceAssets\Generic_ReadMeScreenShot_OptionsGeneral.png
+		..\..\VisualStudioMarketPlaceAssets\Generic_ReadMeScreenShot_WarningLargeQuantity.png = ..\..\VisualStudioMarketPlaceAssets\Generic_ReadMeScreenShot_WarningLargeQuantity.png
+		..\..\VisualStudioMarketPlaceAssets\Generic_ReadMeScreenShot_WarningNonTypical.png = ..\..\VisualStudioMarketPlaceAssets\Generic_ReadMeScreenShot_WarningNonTypical.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{A69BE76F-DF20-49AC-AEB1-C8DE29C8464A}"
+	ProjectSection(SolutionItems) = preProject
 		..\..\VisualStudioMarketPlaceAssets\PaintDotNet\0_Variables.md = ..\..\VisualStudioMarketPlaceAssets\PaintDotNet\0_Variables.md
 		..\..\VisualStudioMarketPlaceAssets\PaintDotNet\README.md = ..\..\VisualStudioMarketPlaceAssets\PaintDotNet\README.md
 		..\..\VisualStudioMarketPlaceAssets\PaintDotNet\ReadMeScreenShot_CodeEditorWindow.png = ..\..\VisualStudioMarketPlaceAssets\PaintDotNet\ReadMeScreenShot_CodeEditorWindow.png
@@ -54,6 +61,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{00503434-6495-4367-832D-1F6B2BEF8519} = {1F3D0298-4C07-41FB-92CC-56EEFAB440C2}
 		{E2459CF3-3990-4279-BE3B-284A703CCFC6} = {1F3D0298-4C07-41FB-92CC-56EEFAB440C2}
+		{A69BE76F-DF20-49AC-AEB1-C8DE29C8464A} = {E2459CF3-3990-4279-BE3B-284A703CCFC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6CBD576-83EC-4DA7-9AFC-2DF85811D93A}
