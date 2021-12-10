@@ -46,10 +46,10 @@
   "identity": {
     "internalName": "OpenInPaintNet"
   },
-  "overview": "\\src\\VisualStudioMarketPlaceAssets\\OpenInPaintDotNet\\README.md",
+  "overview": "\\VisualStudioMarketPlaceAssets\\PaintDotNet\\README.md",
   "priceCategory": "free",
   "publisher": "GregTrevellick",
   "private": false,
   "qna": true,
-  "repo": "https://github.com/GregTrevellick/OpenInApp.Launcher"
+  "repo": "https://github.com/GregTrevellick/OpenInApp"
 }
