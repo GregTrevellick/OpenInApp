@@ -1,9 +1,7 @@
 [VersionNumberBadgeURL]: https://vsmarketplacebadge.apphb.com/version/GregTrevellick.OpenInEmacs.svg
 [VSMarketplaceUrl]: https://marketplace.visualstudio.com/search?term=trevellick&target=VS&sortBy=Relevance
-[CharityWareURL]: https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware
-[WhyURL]: https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Why
   
-# Open In App Launcher
+# Open In App
 
 <!--BadgesSTART-->
 <!-- Powered by https://github.com/GregTrevellick/ReadMeSynchronizer -->
@@ -231,23 +229,23 @@ Software License is available [here](/LICENSE.txt).
 
 ---------------------------------------
 
-[![Atom](src/VisualStudioMarketPlaceAssets/OpenInAtom/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninAtom)
-[![Altova Xml Spy](src/VisualStudioMarketPlaceAssets/OpenInAltovaXmlSpy/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninAltovaXMLSpy)
-[![Paint Dot Net](src/VisualStudioMarketPlaceAssets/OpenInPaintDotNet/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninPaintNet)
-[![Visual Studio 2017 Community](src/VisualStudioMarketPlaceAssets/OpenInVS2017Community/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninVisualStudio2017Community)
-[![Chrome Canary](src/VisualStudioMarketPlaceAssets/OpenInChromeCanary/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninChromeCanary)
-[![Gimp](src/VisualStudioMarketPlaceAssets/OpenInGimp/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninGIMP-GNUImageManipulationProgram)
-[![Opera](src/VisualStudioMarketPlaceAssets/OpenInOpera/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninOpera)
-[![Opera Developer](src/VisualStudioMarketPlaceAssets/OpenInOperaDeveloper/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninOperaDeveloper)
-[![Vivaldi](src/VisualStudioMarketPlaceAssets/OpenInVivaldi/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninVivaldi)
-[![Firefox Developer Edition](src/VisualStudioMarketPlaceAssets/OpenInFirefoxDeveloperEdition/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninFirefoxDeveloperEdition)
-[![Markdown Monster](src/VisualStudioMarketPlaceAssets/OpenInMarkdownMonster/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninMarkdownMonster)
-[![Markdown Monster](src/VisualStudioMarketPlaceAssets/OpenInEmacs/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninEmacs)
-[![Markdown Monster](src/VisualStudioMarketPlaceAssets/OpenInMSPaint/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninMSPaint)
-[![Markdown Monster](src/VisualStudioMarketPlaceAssets/OpenInXamarinStudio/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninXamarinStudio)
-[![TreeSize Free](src/VisualStudioMarketPlaceAssets/OpenInTreeSizeFree/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninTreeSizeFree)
-[![TreeSize Professional](src/VisualStudioMarketPlaceAssets/OpenInTreeSizeProfessional/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninTreeSizeProfessional)
-[![WinDirStat](src/VisualStudioMarketPlaceAssets/OpenInWinDirStat/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninWinDirStat) [![Greenkeeper badge](https://badges.greenkeeper.io/GregTrevellick/OpenInApp.Launcher.svg)](https://greenkeeper.io/)
+[![Atom](VisualStudioMarketPlaceAssets/Atom/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninAtom)
+[![Altova Xml Spy](VisualStudioMarketPlaceAssets/AltovaXmlSpy/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninAltovaXMLSpy)
+[![Paint Dot Net](VisualStudioMarketPlaceAssets/PaintDotNet/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninPaintNet)
+[![Visual Studio 2017 Community](VisualStudioMarketPlaceAssets/VS2017Community/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninVisualStudio2017Community)
+[![Chrome Canary](VisualStudioMarketPlaceAssets/ChromeCanary/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninChromeCanary)
+[![Gimp](VisualStudioMarketPlaceAssets/Gimp/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninGIMP-GNUImageManipulationProgram)
+[![Opera](VisualStudioMarketPlaceAssets/Opera/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninOpera)
+[![Opera Developer](VisualStudioMarketPlaceAssets/OperaDeveloper/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninOperaDeveloper)
+[![Vivaldi](VisualStudioMarketPlaceAssets/Vivaldi/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninVivaldi)
+[![Firefox Developer Edition](VisualStudioMarketPlaceAssets/FirefoxDeveloperEdition/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninFirefoxDeveloperEdition)
+[![Markdown Monster](VisualStudioMarketPlaceAssets/MarkdownMonster/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninMarkdownMonster)
+[![Markdown Monster](VisualStudioMarketPlaceAssets/Emacs/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninEmacs)
+[![Markdown Monster](VisualStudioMarketPlaceAssets/MSPaint/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninMSPaint)
+[![Markdown Monster](VisualStudioMarketPlaceAssets/XamarinStudio/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninXamarinStudio)
+[![TreeSize Free](VisualStudioMarketPlaceAssets/TreeSizeFree/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninTreeSizeFree)
+[![TreeSize Professional](VisualStudioMarketPlaceAssets/TreeSizeProfessional/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninTreeSizeProfessional)
+[![WinDirStat](VisualStudioMarketPlaceAssets/WinDirStat/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninWinDirStat) [![Greenkeeper badge](https://badges.greenkeeper.io/GregTrevellick/OpenInApp.Launcher.svg)](https://greenkeeper.io/)
 
 ## Legal
 
