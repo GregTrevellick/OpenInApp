@@ -31,7 +31,7 @@ Similar "Open In" VS extensions can be found [here](https://marketplace.visualst
 
   ![](ReadMeScreenShot_ProjNode.png)
 
-
+<!--
 - Warning if attempting to open one or more file types whose extension is not typically associated with [paint.net][ThirdPartyAppHomePage]. The list of typical file extensions is configurable in Tools > Options.
 
   ![](../Generic_ReadMeScreenShot_WarningNonTypical.png)
@@ -44,6 +44,7 @@ Similar "Open In" VS extensions can be found [here](https://marketplace.visualst
 - Warning if attempting to open a large quantity of artefacts. The quantity is configurable in Tools > Options.
 
   ![](../Generic_ReadMeScreenShot_WarningLargeQuantity.png)
+-->
 
 ## Use Cases
 
