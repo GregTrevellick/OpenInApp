@@ -6,40 +6,40 @@
 <!--BadgesSTART-->
 <!-- Powered by https://github.com/GregTrevellick/ReadMeSynchronizer -->
 [![Read Me Synchronizer](https://img.shields.io/badge/-powered%20by%20ReadMeSynchronizer-brightgreen.svg)](https://github.com/GregTrevellick/ReadMeSynchronizer)
-[![BetterCodeHub compliance](https://bettercodehub.com/edge/badge/GregTrevellick/OpenInApp.Launcher?branch=master)](https://bettercodehub.com/results/GregTrevellick/OpenInApp.Launcher)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e61c4dba8261497fb447379730e97a25)](https://www.codacy.com/project/gtrevellick/OpenInApp.Launcher/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GregTrevellick/OpenInApp.Launcher&amp;utm_campaign=Badge_Grade_Dashboard)
-[![CodeBeat](https://codebeat.co/badges/undefined)](https://codebeat.co/projects/github-com-gregtrevellick-openinapp.launcher-master)
-[![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/OpenInApp.Launcher/badge)](https://www.codefactor.io/repository/github/GregTrevellick/OpenInApp.Launcher)
-  [![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregTrevellick/OpenInApp.Launcher.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/OpenInApp.Launcher/alerts/)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/GregTrevellick/OpenInApp.Launcher.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/OpenInApp.Launcher/context:javascript)
-[![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/OpenInApp.Launcher.svg)](https://github.com/GregTrevellick/OpenInApp.Launcher)
-[![Github language count](https://img.shields.io/github/languages/count/GregTrevellick/OpenInApp.Launcher.svg)](https://github.com/GregTrevellick/OpenInApp.Launcher)
- [![GitHub issues](https://img.shields.io/github/issues-raw/GregTrevellick/OpenInApp.Launcher.svg)](https://github.com/GregTrevellick/OpenInApp.Launcher/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/GregTrevellick/OpenInApp.Launcher.svg)](https://github.com/GregTrevellick/OpenInApp.Launcher/pulls)
+[![BetterCodeHub compliance](https://bettercodehub.com/edge/badge/GregTrevellick/OpenInApp?branch=master)](https://bettercodehub.com/results/GregTrevellick/OpenInApp)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e61c4dba8261497fb447379730e97a25)](https://www.codacy.com/project/gtrevellick/OpenInApp/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GregTrevellick/OpenInApp&amp;utm_campaign=Badge_Grade_Dashboard)
+[![CodeBeat](https://codebeat.co/badges/undefined)](https://codebeat.co/projects/github-com-gregtrevellick-OpenInApp-master)
+[![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/OpenInApp/badge)](https://www.codefactor.io/repository/github/GregTrevellick/OpenInApp)
+  [![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregTrevellick/OpenInApp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/OpenInApp/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/GregTrevellick/OpenInApp.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/OpenInApp/context:javascript)
+[![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/OpenInApp.svg)](https://github.com/GregTrevellick/OpenInApp)
+[![Github language count](https://img.shields.io/github/languages/count/GregTrevellick/OpenInApp.svg)](https://github.com/GregTrevellick/OpenInApp)
+ [![GitHub issues](https://img.shields.io/github/issues-raw/GregTrevellick/OpenInApp.svg)](https://github.com/GregTrevellick/OpenInApp/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/GregTrevellick/OpenInApp.svg)](https://github.com/GregTrevellick/OpenInApp/pulls)
 [![GitHub followers](https://img.shields.io/github/followers/GregTrevellick.svg)](https://github.com/GregTrevellick?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/GregTrevellick/OpenInApp.Launcher.svg)](https://github.com/GregTrevellick/OpenInApp.Launcher)
-[![GitHub watchers](https://img.shields.io/github/watchers/GregTrevellick/OpenInApp.Launcher.svg)](https://github.com/GregTrevellick/OpenInApp.Launcher/watchers)
-[![Sonar&metric=alert_status](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=alert_status)](https://sonarcloud.io/dashboard?id=OpenInApp.Launcher)
-[![Sonar&metric=bugs](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=bugs)](https://sonarcloud.io/component_measures?id=OpenInApp.Launcher&metric=bugs)
-[![Sonar&metric=code_smells](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=code_smells)](https://sonarcloud.io/component_measures?id=OpenInApp.Launcher&metric=code_smells)
-[![Sonar&metric=coverage](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=coverage)](https://sonarcloud.io/component_measures?id=OpenInApp.Launcher&metric=Coverage)
-[![Sonar&metric=duplicated_lines_density](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=duplicated_lines_density)](https://sonarcloud.io/component_measures?id=OpenInApp.Launcher&metric=duplicated_lines)
-[![Sonar&metric=ncloc](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=ncloc)](https://sonarcloud.io/component_measures?id=OpenInApp.Launcher&metric=ncloc)
-[![Sonar&metric=reliability_rating](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=OpenInApp.Launcher&metric=reliability_rating)
-[![Sonar&metric=security_rating](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=security_rating)](https://sonarcloud.io/component_measures?id=OpenInApp.Launcher&metric=security_rating)
-[![Sonar&metric=sqale_index](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=sqale_index)](https://sonarcloud.io/component_measures?id=OpenInApp.Launcher&metric=sqale_index)
-[![Sonar&metric=sqale_rating](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=sqale_rating)](https://sonarcloud.io/component_measures?id=OpenInApp.Launcher&metric=sqale_rating)
-[![Sonar&metric=vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp.Launcher&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=OpenInApp.Launcher&metric=vulnerabilities)
+[![GitHub stars](https://img.shields.io/github/stars/GregTrevellick/OpenInApp.svg)](https://github.com/GregTrevellick/OpenInApp)
+[![GitHub watchers](https://img.shields.io/github/watchers/GregTrevellick/OpenInApp.svg)](https://github.com/GregTrevellick/OpenInApp/watchers)
+[![Sonar&metric=alert_status](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=alert_status)](https://sonarcloud.io/dashboard?id=OpenInApp)
+[![Sonar&metric=bugs](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=bugs)](https://sonarcloud.io/component_measures?id=OpenInApp&metric=bugs)
+[![Sonar&metric=code_smells](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=code_smells)](https://sonarcloud.io/component_measures?id=OpenInApp&metric=code_smells)
+[![Sonar&metric=coverage](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=coverage)](https://sonarcloud.io/component_measures?id=OpenInApp&metric=Coverage)
+[![Sonar&metric=duplicated_lines_density](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=duplicated_lines_density)](https://sonarcloud.io/component_measures?id=OpenInApp&metric=duplicated_lines)
+[![Sonar&metric=ncloc](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=ncloc)](https://sonarcloud.io/component_measures?id=OpenInApp&metric=ncloc)
+[![Sonar&metric=reliability_rating](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=OpenInApp&metric=reliability_rating)
+[![Sonar&metric=security_rating](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=security_rating)](https://sonarcloud.io/component_measures?id=OpenInApp&metric=security_rating)
+[![Sonar&metric=sqale_index](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=sqale_index)](https://sonarcloud.io/component_measures?id=OpenInApp&metric=sqale_index)
+[![Sonar&metric=sqale_rating](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=sqale_rating)](https://sonarcloud.io/component_measures?id=OpenInApp&metric=sqale_rating)
+[![Sonar&metric=vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=OpenInApp&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=OpenInApp&metric=vulnerabilities)
 [![Appveyor Build status](https://ci.appveyor.com/api/projects/status/0vwmtcboontemltq?svg=true)](https://ci.appveyor.com/project/GregTrevellick/OpenInApp-Launcher)
 [![Appveyor unit tests](https://img.shields.io/appveyor/tests/GregTrevellick/OpenInApp-Launcher.svg)](https://ci.appveyor.com/project/GregTrevellick/OpenInApp-Launcher/build/tests)
-[![Azure Build Status](https://gregtrevellick.visualstudio.com/OpenInApp.Launcher/_apis/build/status/OpenInApp.Launcher)](https://gregtrevellick.visualstudio.com/OpenInApp.Launcher/_build/latest?definitionId=10)
+[![Azure Build Status](https://gregtrevellick.visualstudio.com/OpenInApp/_apis/build/status/OpenInApp)](https://gregtrevellick.visualstudio.com/OpenInApp/_build/latest?definitionId=10)
 [![Hound](https://img.shields.io/badge/hound_ci-checked-brightgreen.svg)](https://houndci.com/)
 [![Access Lint github](https://img.shields.io/badge/a11y-checked-brightgreen.svg)](https://www.accesslint.com)
 [![ImgBot](https://img.shields.io/badge/images-optimized-brightgreen.svg)](https://imgbot.net/)
 [![Renovate Bot github](https://img.shields.io/badge/renovatebot-checked-brightgreen.svg)](https://renovatebot.com/)
 [![Charity Ware](https://img.shields.io/badge/charity%20ware-thank%20you-brightgreen.svg)](https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware)
 [![License](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
-[![Subscribe](https://img.shields.io/badge/subscribe%20to%20receive%20notificatons-grey.svg)](https://github.com/GregTrevellick/OpenInApp.Launcher/subscription)
+[![Subscribe](https://img.shields.io/badge/subscribe%20to%20receive%20notificatons-grey.svg)](https://github.com/GregTrevellick/OpenInApp/subscription)
  
 [![Visual Studio Marketplace version](https://img.shields.io/badge/-OpenInAltovaXmlSpy-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInAltovaXmlSpy)
 [![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.OpenInAltovaXmlSpy.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInAltovaXmlSpy)
@@ -248,7 +248,7 @@ Software License is available [here](/LICENSE.txt).
 [![Markdown Monster](VisualStudioMarketPlaceAssets/XamarinStudio/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninXamarinStudio)
 [![TreeSize Free](VisualStudioMarketPlaceAssets/TreeSizeFree/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninTreeSizeFree)
 [![TreeSize Professional](VisualStudioMarketPlaceAssets/TreeSizeProfessional/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninTreeSizeProfessional)
-[![WinDirStat](VisualStudioMarketPlaceAssets/WinDirStat/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninWinDirStat) [![Greenkeeper badge](https://badges.greenkeeper.io/GregTrevellick/OpenInApp.Launcher.svg)](https://greenkeeper.io/)
+[![WinDirStat](VisualStudioMarketPlaceAssets/WinDirStat/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninWinDirStat) [![Greenkeeper badge](https://badges.greenkeeper.io/GregTrevellick/OpenInApp.svg)](https://greenkeeper.io/)
 -->
 
 ## Legal
@@ -287,7 +287,7 @@ Additional thanks to
 - [Paint Dot Net](http://www.getpaint.net/)  
 - [Dot Net Curry](https://github.com/dotnetcurry/grunt-gulp-visualstudio/tree/master/Gulp%20files%20for%20VS%202013)   
 
-[![](chart_github.ioOpenInApp.Launcher.png)][GitHubPagesURL]
+[![](chart_github.ioOpenInApp.png)][GitHubPagesURL]
 
 
 
@@ -296,8 +296,8 @@ Additional thanks to
 
 [AppVeyorProjectUrl]: https://ci.appveyor.com/project/GregTrevellick/openinapp-launcher
 [AppVeyorProjectBuildStatusBadgeSvg]: https://ci.appveyor.com/api/projects/status/0vwmtcboontemltq?svg=true
-[GitHubPagesURL]: https://gregtrevellick.github.io/OpenInApp.Launcher/
-[GitHubRepoURL]: https://github.com/GregTrevellick/OpenInApp.Launcher
-[GitHubRepoIssuesURL]: https://github.com/GregTrevellick/OpenInApp.Launcher/issues
-[GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/OpenInApp.Launcher/pulls
+[GitHubPagesURL]: https://gregtrevellick.github.io/OpenInApp/
+[GitHubRepoURL]: https://github.com/GregTrevellick/OpenInApp
+[GitHubRepoIssuesURL]: https://github.com/GregTrevellick/OpenInApp/issues
+[GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/OpenInApp/pulls
 [VisualStudioURL]: https://www.visualstudio.com/
