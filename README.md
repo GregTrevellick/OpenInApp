@@ -225,7 +225,9 @@ See the [change log](CHANGELOG.md) for release history.
 
 Software License is available [here](/LICENSE.txt).
 
+<!--
 [Why?][WhyURL]
+-->
 
 ---------------------------------------
 

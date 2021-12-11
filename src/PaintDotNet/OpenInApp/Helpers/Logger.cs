@@ -5,9 +5,9 @@ using System;
 
 public static class Logger
 {
+    private static string _name;
     private static IVsOutputWindowPane pane;
     private static IServiceProvider _provider;
-    private static string _name;
 
     public static void Initialize(Package provider, string name)
     {
@@ -18,7 +18,9 @@ public static class Logger
     public static void Log(string message)
     {
         if (string.IsNullOrEmpty(message))
+        {
             return;
+        }
 
         try
         {

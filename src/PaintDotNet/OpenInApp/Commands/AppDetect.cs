@@ -11,8 +11,6 @@ namespace OpenInApp
         {
             try
             {
-                ///////////////////var keyToExecutableEnum = "PaintDotNet.exe"; //KeyToExecutableEnum.PaintDotNet;
-
                 var value = GetActualPathToExe();
 
                 if (File.Exists(value))
@@ -74,12 +72,15 @@ namespace OpenInApp
                     InitialFolderType.LocalApplicationData,
                     InitialFolderType.Windows
                 };
+
                 var initialFolderPaths = new List<string>();
+                
                 foreach (var initialFolder in initialFolders)
                 {
                     var specialFolder = (SpecialFolder)initialFolder;
                     var initialFolderPath = GetFolderPath(specialFolder);
                     initialFolderPaths.Add(initialFolderPath);
+                
                     //if x86 add in the non-x86 too
                     if (initialFolder == InitialFolderType.ProgramFilesX86)
                     {
