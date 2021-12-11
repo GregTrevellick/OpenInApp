@@ -287,8 +287,9 @@ Additional thanks to
 - [Paint Dot Net](http://www.getpaint.net/)  
 - [Dot Net Curry](https://github.com/dotnetcurry/grunt-gulp-visualstudio/tree/master/Gulp%20files%20for%20VS%202013)   
 
+<!--
 [![](chart_github.ioOpenInApp.png)][GitHubPagesURL]
-
+-->
 
 
 
