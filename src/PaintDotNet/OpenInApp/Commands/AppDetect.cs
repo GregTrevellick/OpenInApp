@@ -59,28 +59,31 @@ namespace OpenInApp
 
             if (!string.IsNullOrEmpty(executableFileToBrowseFor))
             {
-                //set up array of the four special folders
-                var initialFolders = new List<InitialFolderType>
-                {
-                    InitialFolderType.ProgramFilesX86,
-                };
+                ////set up array of the four special folders
+                //var initialFolders = new List<InitialFolderType>
+                //{
+                //    InitialFolderType.ProgramFilesX86,
+                //};
 
                 var initialFolderPaths = new List<string>();
+
+                //foreach (var initialFolder in initialFolders)
+                //{
+                var specialFolder = (SpecialFolder)42;// 42 = ProgramFilesX86
+                var initialFolderPath = GetFolderPath(specialFolder);
+                initialFolderPaths.Add(initialFolderPath);
+
+                ///////////////////////////////if x86
+                //if (initialFolder == InitialFolderType.ProgramFilesX86)
+                //{
                 
-                foreach (var initialFolder in initialFolders)
-                {
-                    var specialFolder = (SpecialFolder)initialFolder;
-                    var initialFolderPath = GetFolderPath(specialFolder);
-                    initialFolderPaths.Add(initialFolderPath);
+                //add in the non-x86 too
+                var x86 = " (x86)";
+                var initialFolderPathshWithoutx86 = initialFolderPath.Replace(x86, string.Empty);
+                initialFolderPaths.Add(initialFolderPathshWithoutx86);
                 
-                    //if x86 add in the non-x86 too
-                    if (initialFolder == InitialFolderType.ProgramFilesX86)
-                    {
-                        var x86 = " (x86)";
-                        var initialFolderPathshWithoutx86 = initialFolderPath.Replace(x86, string.Empty);
-                        initialFolderPaths.Add(initialFolderPathshWithoutx86);
-                    }
-                }
+                //}
+                //}
 
                 foreach (var folderPath in initialFolderPaths)
                 {
@@ -102,8 +105,7 @@ namespace OpenInApp
                 dPaths.Add(dPath);
             }
 
-            var result = searchPaths.Union(dPaths);
-            return result;
+            return searchPaths.Union(dPaths);
         }
     }
 }
