@@ -235,7 +235,7 @@ Software License is available [here](/LICENSE.txt).
 [![Atom](VisualStudioMarketPlaceAssets/Atom/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninAtom)
 [![Altova Xml Spy](VisualStudioMarketPlaceAssets/AltovaXmlSpy/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninAltovaXMLSpy)
 -->
-[![Paint Dot Net](VisualStudioMarketPlaceAssets/PaintDotNet/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninPaintNet)
+[![Paint Dot Net](src/PaintDotNet/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninPaintNet)
 <!--
 [![Visual Studio 2017 Community](VisualStudioMarketPlaceAssets/VS2017Community/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninVisualStudio2017Community)
 [![Chrome Canary](VisualStudioMarketPlaceAssets/ChromeCanary/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninChromeCanary)
