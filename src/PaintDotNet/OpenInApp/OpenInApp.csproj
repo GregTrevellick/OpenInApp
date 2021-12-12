@@ -63,7 +63,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Commands\AppDetect.cs" />
-    <Compile Include="Commands\ArtefactsToOpenHelper.cs" />
     <Compile Include="Helpers\Logger.cs" />
     <Compile Include="Commands\OpenInAppCommand.cs" />
     <Compile Include="Helpers\MyConstants.cs" />
