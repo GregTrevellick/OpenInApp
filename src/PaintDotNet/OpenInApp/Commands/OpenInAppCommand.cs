@@ -13,7 +13,7 @@ namespace OpenInApp
     {
         private readonly Package _package;
         private readonly Options _options;
-        //private readonly string appExe = MyConstants.ExeName;
+
         private OpenInAppCommand(Package package, Options options)
         {
             _package = package;
@@ -64,14 +64,7 @@ namespace OpenInApp
                 var path = ProjectHelpers.GetSelectedPath(dte);//////////////////, _options.OpenSolutionProjectAsRegularFile);
 
                 if (!string.IsNullOrEmpty(path))
-                {
-                    //int line = 0;
-
-                    //if (dte.ActiveDocument?.Selection is TextSelection selection)
-                    //{
-                    //    line = selection.ActivePoint.Line;
-                    //}
-
+                {                   
                     OpenApp(dte);
                 }
                 else

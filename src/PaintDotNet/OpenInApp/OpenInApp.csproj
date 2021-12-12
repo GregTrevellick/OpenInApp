@@ -63,7 +63,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Commands\ApplicationToOpenDto.cs" />
-    <Compile Include="Commands\zzzzzzApplicationToOpenHelper.cs" />
     <Compile Include="Commands\AppDetect.cs" />
     <Compile Include="Commands\ArtefactsToOpenHelper.cs" />
     <Compile Include="Commands\InitialFolderType.cs" />
