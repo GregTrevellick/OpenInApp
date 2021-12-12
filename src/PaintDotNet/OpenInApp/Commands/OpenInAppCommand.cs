@@ -27,11 +27,11 @@ namespace OpenInApp
                 var menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                //gregt next 3 to be tested
                 menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
+                //gregt next 2 to be tested
                 menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
