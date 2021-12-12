@@ -70,6 +70,7 @@
     <Compile Include="Commands\OpenInAppCommand.cs" />
     <Compile Include="Helpers\MyConstants.cs" />
     <Compile Include="Helpers\ProjectHelpers.cs" />
+    <Compile Include="OptionsNew.cs" />
     <Compile Include="Options.cs">
       <SubType>Component</SubType>
     </Compile>
