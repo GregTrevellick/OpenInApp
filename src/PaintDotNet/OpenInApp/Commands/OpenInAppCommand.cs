@@ -3,6 +3,7 @@ using EnvDTE80;
 using Microsoft;
 using Microsoft.VisualStudio.Shell;
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.Design;
 using System.IO;
 using System.Windows.Forms;
@@ -82,7 +83,7 @@ namespace OpenInApp
         {
             EnsurePathExist();
 
-            var actualArtefactsToBeOpened = ArtefactsToOpenHelper.GetArtefactsToBeOpened(dte);
+            var actualArtefactsToBeOpened = GetArtefactsToBeOpened(dte);
 
             var arguments = " ";
 
@@ -105,6 +106,19 @@ namespace OpenInApp
             using (System.Diagnostics.Process.Start(start))
             {
             }
+        }
+
+        private static IList<string> GetArtefactsToBeOpened(DTE2 dte)
+        {
+            var result = new List<string>();
+
+            foreach (SelectedItem selectedItem in dte.SelectedItems)
+            {
+                var itemName = selectedItem.ProjectItem.FileNames[0];
+                result.Add(itemName);
+            }
+
+            return result;
         }
 
         private static string GetSingleArgument(string argument)
