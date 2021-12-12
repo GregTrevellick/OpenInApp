@@ -2,27 +2,27 @@
   "$schema": "http://json.schemastore.org/vsix-publish",
   "assetFiles": [
     {
-      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_CodeEditorWindow.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_CodeEditorWindow.png",
       "targetPath": "ReadMeScreenShot_CodeEditorWindow.png"
     },
     {
-      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_FolderNode.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_FolderNode.png",
       "targetPath": "ReadMeScreenShot_FolderNode.png"
     },
     {
-      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_ItemNode.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_ItemNode.png",
       "targetPath": "ReadMeScreenShot_ItemNode.png"
     },
     {
-      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_ProjNode.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_ProjNode.png",
       "targetPath": "ReadMeScreenShot_ProjNode.png"
     },
     {
-      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\VisualStudioMarketPlaceAssets\\ThirdPartyLogo.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\OpenInApp\\VisualStudioMarketPlaceAssets\\ThirdPartyLogo.png",
       "targetPath": "ThirdPartyLogo.png"
     },
     {
-      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\VisualStudioMarketPlaceAssets\\ThirdPartyScreenShot.png",
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\OpenInApp\\VisualStudioMarketPlaceAssets\\ThirdPartyScreenShot.png",
       "targetPath": "ThirdPartyScreenShot.png"
     }
   ],
@@ -34,7 +34,7 @@
   "identity": {
     "internalName": "OpenInPaintNet"
   },
-  "overview": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\VisualStudioMarketPlaceAssets\\README.md",
+  "overview": "D:\\_git\\OpenInApp\\src\\PaintDotNet\\OpenInApp\\VisualStudioMarketPlaceAssets\\README.md",
   "priceCategory": "free",
   "publisher": "GregTrevellick",
   "private": false,
