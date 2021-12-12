@@ -59,31 +59,15 @@ namespace OpenInApp
 
             if (!string.IsNullOrEmpty(executableFileToBrowseFor))
             {
-                ////set up array of the four special folders
-                //var initialFolders = new List<InitialFolderType>
-                //{
-                //    InitialFolderType.ProgramFilesX86,
-                //};
-
                 var initialFolderPaths = new List<string>();
-
-                //foreach (var initialFolder in initialFolders)
-                //{
                 var specialFolder = (SpecialFolder)42;// 42 = ProgramFilesX86
                 var initialFolderPath = GetFolderPath(specialFolder);
                 initialFolderPaths.Add(initialFolderPath);
 
-                ///////////////////////////////if x86
-                //if (initialFolder == InitialFolderType.ProgramFilesX86)
-                //{
-                
                 //add in the non-x86 too
                 var x86 = " (x86)";
                 var initialFolderPathshWithoutx86 = initialFolderPath.Replace(x86, string.Empty);
                 initialFolderPaths.Add(initialFolderPathshWithoutx86);
-                
-                //}
-                //}
 
                 foreach (var folderPath in initialFolderPaths)
                 {
