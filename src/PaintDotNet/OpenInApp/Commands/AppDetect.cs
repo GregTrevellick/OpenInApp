@@ -41,7 +41,7 @@ namespace OpenInApp
             return null;
         }
 
-        internal static IEnumerable<string> GetSearchPathsForThirdPartyExe()
+        private static IEnumerable<string> GetSearchPathsForThirdPartyExe()
         {
             var searchPaths = new List<string>();
 
