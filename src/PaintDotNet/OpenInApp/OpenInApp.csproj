@@ -63,12 +63,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Commands\ApplicationToOpenDto.cs" />
-    <Compile Include="Commands\ApplicationToOpenHelper.cs" />
+    <Compile Include="Commands\zzzzzzApplicationToOpenHelper.cs" />
     <Compile Include="Commands\AppDetect.cs" />
     <Compile Include="Commands\ArtefactsToOpenHelper.cs" />
     <Compile Include="Commands\InitialFolderType.cs" />
     <Compile Include="Helpers\Logger.cs" />
     <Compile Include="Commands\OpenInAppCommand.cs" />
+    <Compile Include="Helpers\MyConstants.cs" />
     <Compile Include="Helpers\ProjectHelpers.cs" />
     <Compile Include="Options.cs">
       <SubType>Component</SubType>

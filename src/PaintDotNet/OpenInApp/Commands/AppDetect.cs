@@ -7,7 +7,7 @@ namespace OpenInApp
 {
     internal static class AppDetect
     {
-        internal static string OnDisc()
+        internal static string PathToExeOnDisc()
         {
             try
             {
@@ -44,15 +44,16 @@ namespace OpenInApp
         internal static IEnumerable<string> GetSearchPathsForThirdPartyExe()
         {
             var searchPaths = new List<string>();
-            var actualPathToExeHelper = new ApplicationToOpenHelper();
+            //var actualPathToExeHelper = new ApplicationToOpenHelper();
 
-            var executableFilesToBrowseFor = actualPathToExeHelper.GetExecutableFilesToBrowseFor();
+            //var executableFilesToBrowseFor = new List<string> {MyConstants.ExeNameIncFolderWithinProgramFiles };//actualPathToExeHelper.GetExecutableFilesToBrowseFor();
 
-            foreach (var executableFileToBrowseFor in executableFilesToBrowseFor)
-            {
-                var paths = GetSpecialFoldersPlusThirdPartyExePath(executableFileToBrowseFor).ToList();
+            //foreach (var executableFileToBrowseFor in executableFilesToBrowseFor)
+            //{
+                //var paths = GetSpecialFoldersPlusThirdPartyExePath(executableFileToBrowseFor).ToList();
+                var paths = GetSpecialFoldersPlusThirdPartyExePath(MyConstants.ExeNameIncFolderWithinProgramFiles).ToList();
                 searchPaths.AddRange(paths);
-            }
+            //}
 
             searchPaths = DoubleUpForDDrive(searchPaths).ToList();
 
@@ -69,8 +70,8 @@ namespace OpenInApp
                 var initialFolders = new List<InitialFolderType>
                 {
                     InitialFolderType.ProgramFilesX86,
-                    InitialFolderType.LocalApplicationData,
-                    InitialFolderType.Windows
+                    //InitialFolderType.LocalApplicationData,
+                    //InitialFolderType.Windows
                 };
 
                 var initialFolderPaths = new List<string>();

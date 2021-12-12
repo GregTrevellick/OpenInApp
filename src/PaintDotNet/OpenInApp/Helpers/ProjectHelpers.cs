@@ -8,7 +8,7 @@ namespace OpenInApp
 {
     internal static class ProjectHelpers
     {
-        public static string GetSelectedPath(DTE2 dte, bool openSolutionProjectAsRegularFile)
+        public static string GetSelectedPath(DTE2 dte)//, bool openSolutionProjectAsRegularFile)
         {
             var items = (Array)dte.ToolWindows.SolutionExplorer.SelectedItems;
             var files = new List<string>();
@@ -18,17 +18,23 @@ namespace OpenInApp
                 ProjectItem item = selItem.Object as ProjectItem;
 
                 if (item != null)
+                {
                     files.Add(item.GetFilePath());
+                }
 
-                Project proj = selItem.Object as Project;
+                //Project proj = selItem.Object as Project;
 
-                if (proj != null)
-                    return openSolutionProjectAsRegularFile ? $"\"{proj.FileName}\"" : proj.GetRootFolder();
+                //if (proj != null)
+                //{
+                //    return openSolutionProjectAsRegularFile ? $"\"{proj.FileName}\"" : proj.GetRootFolder();
+                //}
 
-                Solution sol = selItem.Object as Solution;
+                //Solution sol = selItem.Object as Solution;
 
-                if (sol != null)
-                    return openSolutionProjectAsRegularFile ? $"\"{sol.FullName}\"" : Path.GetDirectoryName(sol.FileName);
+                //if (sol != null)
+                //{
+                //    return openSolutionProjectAsRegularFile ? $"\"{sol.FullName}\"" : Path.GetDirectoryName(sol.FileName);
+                //}
             }
 
             return files.Count > 0 ? String.Join(" ", files) : null;
@@ -42,7 +48,9 @@ namespace OpenInApp
         public static string GetRootFolder(this Project project)
         {
             if (string.IsNullOrEmpty(project.FullName))
+            {
                 return null;
+            }
 
             string fullPath;
 
@@ -65,13 +73,19 @@ namespace OpenInApp
             }
 
             if (string.IsNullOrEmpty(fullPath))
+            {
                 return File.Exists(project.FullName) ? Path.GetDirectoryName(project.FullName) : null;
+            }
 
             if (Directory.Exists(fullPath))
+            {
                 return fullPath;
+            }
 
             if (File.Exists(fullPath))
+            {
                 return Path.GetDirectoryName(fullPath);
+            }
 
             return null;
         }

@@ -1,11 +1,11 @@
 ﻿using EnvDTE;
 using EnvDTE80;
+using Microsoft;
 using Microsoft.VisualStudio.Shell;
 using System;
 using System.ComponentModel.Design;
 using System.IO;
 using System.Windows.Forms;
-using Microsoft;
 
 namespace OpenInApp
 {
@@ -13,7 +13,7 @@ namespace OpenInApp
     {
         private readonly Package _package;
         private readonly Options _options;
-
+        //private readonly string appExe = MyConstants.ExeName;
         private OpenInAppCommand(Package package, Options options)
         {
             _package = package;
@@ -24,20 +24,21 @@ namespace OpenInApp
             if (commandService != null)
             {
                 var menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppItemNode);
-                var menuItem = new MenuCommand(OpenFolderInVs, menuCommandID);
+                var menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                //menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
-                //menuItem = new MenuCommand(OpenFolderInVs, menuCommandID);
-                //commandService.AddCommand(menuItem);
+                //gregt next 3 to be tested
+                menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
+                menuItem = new MenuCommand(OpenApp, menuCommandID);
+                commandService.AddCommand(menuItem);
 
-                //menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
-                //menuItem = new MenuCommand(OpenFolderInVs, menuCommandID);
-                //commandService.AddCommand(menuItem);
+                menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
+                menuItem = new MenuCommand(OpenApp, menuCommandID);
+                commandService.AddCommand(menuItem);
 
-                //menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppProjNode);
-                //menuItem = new MenuCommand(OpenFolderInVs, menuCommandID);
-                //commandService.AddCommand(menuItem);
+                menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppProjNode);
+                menuItem = new MenuCommand(OpenApp, menuCommandID);
+                commandService.AddCommand(menuItem);
             }
         }
 
@@ -53,23 +54,23 @@ namespace OpenInApp
             Instance = new OpenInAppCommand(package, options);
         }
 
-        private void OpenFolderInVs(object sender, EventArgs e)
+        private void OpenApp(object sender, EventArgs e)
         {
             try
             {
                 var dte = (DTE2)ServiceProvider.GetService(typeof(DTE));
                 Assumes.Present(dte);
 
-                string path = ProjectHelpers.GetSelectedPath(dte, _options.OpenSolutionProjectAsRegularFile);
+                var path = ProjectHelpers.GetSelectedPath(dte);//////////////////, _options.OpenSolutionProjectAsRegularFile);
 
                 if (!string.IsNullOrEmpty(path))
                 {
-                    int line = 0;
+                    //int line = 0;
 
-                    if (dte.ActiveDocument?.Selection is TextSelection selection)
-                    {
-                        line = selection.ActivePoint.Line;
-                    }
+                    //if (dte.ActiveDocument?.Selection is TextSelection selection)
+                    //{
+                    //    line = selection.ActivePoint.Line;
+                    //}
 
                     OpenApp(dte);
                 }
@@ -122,29 +123,35 @@ namespace OpenInApp
         private void EnsurePathExist()
         {
             if (File.Exists(_options.PathToExe))
-                return;
-
-            if (!string.IsNullOrEmpty(AppDetect.OnDisc()))
             {
-                SaveOptions(_options, AppDetect.OnDisc());
+                return;
+            }
+
+            var pathToExeOnDisc = AppDetect.PathToExeOnDisc();
+
+            if (!string.IsNullOrEmpty(pathToExeOnDisc))
+            {
+                SaveOptions(_options, pathToExeOnDisc);
             }
             else
             {
                 var box = MessageBox.Show(
-                    "I can't find Paint.Net executable. Would you like to help me find it?", 
+                    $"Cannot locate {MyConstants.ExeName} executable. Locate it manually?",
                     Vsix.Name,
-                    MessageBoxButtons.YesNo, 
+                    MessageBoxButtons.YesNo,
                     MessageBoxIcon.Question);
 
                 if (box == DialogResult.No)
+                {
                     return;
+                }
 
                 var dialog = new OpenFileDialog
                 {
+                    CheckFileExists = true,
                     DefaultExt = ".exe",
-                    FileName = "Code.exe",
+                    FileName = MyConstants.ExeName,
                     InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles),
-                    CheckFileExists = true
                 };
 
                 var result = dialog.ShowDialog();
