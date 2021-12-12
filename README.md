@@ -225,33 +225,11 @@ See the [change log](CHANGELOG.md) for release history.
 
 Software License is available [here](/LICENSE.txt).
 
-<!--
-[Why?][WhyURL]
--->
 
 ---------------------------------------
 
-<!--
-[![Atom](VisualStudioMarketPlaceAssets/Atom/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninAtom)
-[![Altova Xml Spy](VisualStudioMarketPlaceAssets/AltovaXmlSpy/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninAltovaXMLSpy)
--->
+[![GIMP](src/Gimp/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninGimp)
 [![Paint Dot Net](src/PaintDotNet/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninPaintNet)
-<!--
-[![Visual Studio 2017 Community](VisualStudioMarketPlaceAssets/VS2017Community/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninVisualStudio2017Community)
-[![Chrome Canary](VisualStudioMarketPlaceAssets/ChromeCanary/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninChromeCanary)
-[![Gimp](VisualStudioMarketPlaceAssets/Gimp/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninGIMP-GNUImageManipulationProgram)
-[![Opera](VisualStudioMarketPlaceAssets/Opera/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninOpera)
-[![Opera Developer](VisualStudioMarketPlaceAssets/OperaDeveloper/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninOperaDeveloper)
-[![Vivaldi](VisualStudioMarketPlaceAssets/Vivaldi/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninVivaldi)
-[![Firefox Developer Edition](VisualStudioMarketPlaceAssets/FirefoxDeveloperEdition/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninFirefoxDeveloperEdition)
-[![Markdown Monster](VisualStudioMarketPlaceAssets/MarkdownMonster/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninMarkdownMonster)
-[![Markdown Monster](VisualStudioMarketPlaceAssets/Emacs/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninEmacs)
-[![Markdown Monster](VisualStudioMarketPlaceAssets/MSPaint/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninMSPaint)
-[![Markdown Monster](VisualStudioMarketPlaceAssets/XamarinStudio/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninXamarinStudio)
-[![TreeSize Free](VisualStudioMarketPlaceAssets/TreeSizeFree/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninTreeSizeFree)
-[![TreeSize Professional](VisualStudioMarketPlaceAssets/TreeSizeProfessional/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninTreeSizeProfessional)
-[![WinDirStat](VisualStudioMarketPlaceAssets/WinDirStat/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninWinDirStat) [![Greenkeeper badge](https://badges.greenkeeper.io/GregTrevellick/OpenInApp.svg)](https://greenkeeper.io/)
--->
 
 ## Legal
 
@@ -288,13 +266,6 @@ Additional thanks to
 - [Screen To Gif](http://www.screentogif.com/) 
 - [Paint Dot Net](http://www.getpaint.net/)  
 - [Dot Net Curry](https://github.com/dotnetcurry/grunt-gulp-visualstudio/tree/master/Gulp%20files%20for%20VS%202013)   
-
-<!--
-[![](chart_github.ioOpenInApp.png)][GitHubPagesURL]
--->
-
-
-
 
 
 [AppVeyorProjectUrl]: https://ci.appveyor.com/project/GregTrevellick/openinapp-launcher
