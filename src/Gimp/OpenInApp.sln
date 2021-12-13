@@ -10,8 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		..\appveyor.yml = ..\appveyor.yml
 		..\azure-pipelines.yml = ..\azure-pipelines.yml
 		..\..\README.md = ..\..\README.md
-		..\..\VsmpPublish.bat = ..\..\VsmpPublish.bat
-		..\..\VsmpPublish.json = ..\..\VsmpPublish.json
+		VsmpPublish.bat = VsmpPublish.bat
+		VsmpPublish.json = VsmpPublish.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generic", "Generic", "{00503434-6495-4367-832D-1F6B2BEF8519}"
