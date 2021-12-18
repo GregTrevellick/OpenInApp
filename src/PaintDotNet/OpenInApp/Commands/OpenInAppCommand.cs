@@ -24,20 +24,20 @@ namespace OpenInApp
 
             if (commandService != null)
             {
-                var menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppItemNode);
+                var menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppItemNode);
                 var menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                //menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
+                //menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
                 //menuItem = new MenuCommand(OpenApp, menuCommandID);
                 //commandService.AddCommand(menuItem);
 
                 ////gregt next 2 to be tested
-                //menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
+                //menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
                 //menuItem = new MenuCommand(OpenApp, menuCommandID);
                 //commandService.AddCommand(menuItem);
 
-                //menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppProjNode);
+                //menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppProjNode);
                 //menuItem = new MenuCommand(OpenApp, menuCommandID);
                 //commandService.AddCommand(menuItem);
             }

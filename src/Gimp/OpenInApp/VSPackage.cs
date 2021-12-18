@@ -9,7 +9,7 @@ namespace OpenInApp
     [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]
     [ProvideMenuResource("Menus.ctmenu", 1)]
     [ProvideOptionPage(typeof(Options), Vsix.Name, Vsix.Name, 0, 0, true)]
-    [Guid(PackageGuids.guidOpenInGimpPackageString)]
+    [Guid(PackageGuids.guidOpenInAppPackageString)]
     public sealed class VSPackage : AsyncPackage
     {
         protected override async System.Threading.Tasks.Task InitializeAsync(CancellationToken cancellationToken, IProgress<ServiceProgressData> progress)

@@ -12,11 +12,11 @@ namespace OpenInApp
     /// </summary>
     internal sealed partial class PackageGuids
     {
-        public const string guidOpenInPaintDotNetPackageString = "123d2a90-f17c-4563-97e1-659f2cb16c7c";
-        public static Guid guidOpenInPaintDotNetPackage = new Guid(guidOpenInPaintDotNetPackageString);
+        public const string guidOpenInAppPackageString = "123d2a90-f17c-4563-97e1-659f2cb16c7c";
+        public static Guid guidOpenInAppPackage = new Guid(guidOpenInAppPackageString);
 
-        public const string guidOpenInPaintDotNetCmdSetString = "16ded3d5-00b3-4444-a8cc-536fe62cefc9";
-        public static Guid guidOpenInPaintDotNetCmdSet = new Guid(guidOpenInPaintDotNetCmdSetString);
+        public const string guidOpenInAppCmdSetString = "16ded3d5-00b3-4444-a8cc-536fe62cefc9";
+        public static Guid guidOpenInAppCmdSet = new Guid(guidOpenInAppCmdSetString);
 
         public const string guidImagesString = "11fdde54-27fa-469f-8e59-92d457dc9e02";
         public static Guid guidImages = new Guid(guidImagesString);
