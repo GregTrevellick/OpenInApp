@@ -28,18 +28,18 @@ namespace OpenInGimp
                 var menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(PackageGuids.guidOpenInGimpCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
-                menuItem = new MenuCommand(OpenApp, menuCommandID);
-                commandService.AddCommand(menuItem);
+                //menuCommandID = new CommandID(PackageGuids.guidOpenInGimpCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
+                //menuItem = new MenuCommand(OpenApp, menuCommandID);
+                //commandService.AddCommand(menuItem);
 
-                //gregt next 2 to be tested
-                menuCommandID = new CommandID(PackageGuids.guidOpenInGimpCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
-                menuItem = new MenuCommand(OpenApp, menuCommandID);
-                commandService.AddCommand(menuItem);
+                ////gregt next 2 to be tested
+                //menuCommandID = new CommandID(PackageGuids.guidOpenInGimpCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
+                //menuItem = new MenuCommand(OpenApp, menuCommandID);
+                //commandService.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(PackageGuids.guidOpenInGimpCmdSet, PackageIds.CmdIdOpenInAppProjNode);
-                menuItem = new MenuCommand(OpenApp, menuCommandID);
-                commandService.AddCommand(menuItem);
+                //menuCommandID = new CommandID(PackageGuids.guidOpenInGimpCmdSet, PackageIds.CmdIdOpenInAppProjNode);
+                //menuItem = new MenuCommand(OpenApp, menuCommandID);
+                //commandService.AddCommand(menuItem);
             }
         }
 

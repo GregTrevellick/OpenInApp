@@ -29,18 +29,18 @@ namespace OpenInApp
                 var menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
-                menuItem = new MenuCommand(OpenApp, menuCommandID);
-                commandService.AddCommand(menuItem);
+                //menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
+                //menuItem = new MenuCommand(OpenApp, menuCommandID);
+                //commandService.AddCommand(menuItem);
 
-                //gregt next 2 to be tested
-                menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
-                menuItem = new MenuCommand(OpenApp, menuCommandID);
-                commandService.AddCommand(menuItem);
+                ////gregt next 2 to be tested
+                //menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
+                //menuItem = new MenuCommand(OpenApp, menuCommandID);
+                //commandService.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppProjNode);
-                menuItem = new MenuCommand(OpenApp, menuCommandID);
-                commandService.AddCommand(menuItem);
+                //menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppProjNode);
+                //menuItem = new MenuCommand(OpenApp, menuCommandID);
+                //commandService.AddCommand(menuItem);
             }
         }
 
@@ -63,7 +63,7 @@ namespace OpenInApp
                 var dte = (DTE2)ServiceProvider.GetService(typeof(DTE));
                 Assumes.Present(dte);
 
-                var path = ProjectHelpers.GetSelectedPath(dte);//////////////////, _options.OpenSolutionProjectAsRegularFile);
+                var path = ProjectHelpers.GetSelectedPath(dte);
 
                 if (!string.IsNullOrEmpty(path))
                 {                   
