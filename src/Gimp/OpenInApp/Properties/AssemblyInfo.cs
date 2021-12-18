@@ -1,4 +1,4 @@
-﻿using OpenInGimp;
+﻿using OpenInApp;
 using System.Reflection;
 using System.Runtime.InteropServices;
 

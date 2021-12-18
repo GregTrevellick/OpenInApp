@@ -3,7 +3,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace OpenInGimp
+namespace OpenInApp
 {
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]

@@ -2,7 +2,6 @@
 using EnvDTE80;
 using Microsoft;
 using Microsoft.VisualStudio.Shell;
-using OpenInPaintDotNet;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;

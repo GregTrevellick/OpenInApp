@@ -8,7 +8,7 @@ using System.ComponentModel.Design;
 using System.IO;
 using System.Windows.Forms;
 
-namespace OpenInGimp
+namespace OpenInApp
 {
     internal sealed class OpenInAppCommand
     {
@@ -62,7 +62,7 @@ namespace OpenInGimp
                 var dte = (DTE2)ServiceProvider.GetService(typeof(DTE));
                 Assumes.Present(dte);
 
-                var path = ProjectHelpers.GetSelectedPath(dte);//////////////////, _options.OpenSolutionProjectAsRegularFile);
+                var path = ProjectHelpers.GetSelectedPath(dte);
 
                 if (!string.IsNullOrEmpty(path))
                 {                   

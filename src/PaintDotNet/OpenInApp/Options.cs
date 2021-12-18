@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
-namespace OpenInPaintDotNet
+namespace OpenInApp
 {
     public class Options : DialogPage
     {

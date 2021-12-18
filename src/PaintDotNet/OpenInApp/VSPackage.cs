@@ -1,10 +1,9 @@
 ﻿using Microsoft.VisualStudio.Shell;
-using OpenInApp;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace OpenInPaintDotNet
+namespace OpenInApp
 {
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [InstalledProductRegistration("#110", "#112", Vsix.Version, IconResourceID = 400)]

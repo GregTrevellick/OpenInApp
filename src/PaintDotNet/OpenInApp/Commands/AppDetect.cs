@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using static System.Environment;
 
-namespace OpenInPaintDotNet
+namespace OpenInApp
 {
     internal static class AppDetect
     {
