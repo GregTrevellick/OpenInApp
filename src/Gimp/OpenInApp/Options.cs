@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
-namespace OpenInApp
+namespace OpenInGimp
 {
     public class Options : DialogPage
     {

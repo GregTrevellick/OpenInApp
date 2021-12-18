@@ -2,6 +2,7 @@
 using EnvDTE80;
 using Microsoft;
 using Microsoft.VisualStudio.Shell;
+using OpenInPaintDotNet;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
@@ -24,20 +25,20 @@ namespace OpenInApp
 
             if (commandService != null)
             {
-                var menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppItemNode);
+                var menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppItemNode);
                 var menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
+                menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
                 //gregt next 2 to be tested
-                menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
+                menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppProjNode);
+                menuCommandID = new CommandID(PackageGuids.guidOpenInPaintDotNetCmdSet, PackageIds.CmdIdOpenInAppProjNode);
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
             }

@@ -8,7 +8,7 @@ using System.ComponentModel.Design;
 using System.IO;
 using System.Windows.Forms;
 
-namespace OpenInApp
+namespace OpenInGimp
 {
     internal sealed class OpenInAppCommand
     {
@@ -24,20 +24,20 @@ namespace OpenInApp
 
             if (commandService != null)
             {
-                var menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppItemNode);
+                var menuCommandID = new CommandID(PackageGuids.guidOpenInGimpCmdSet, PackageIds.CmdIdOpenInAppItemNode);
                 var menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
+                menuCommandID = new CommandID(PackageGuids.guidOpenInGimpCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
                 //gregt next 2 to be tested
-                menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
+                menuCommandID = new CommandID(PackageGuids.guidOpenInGimpCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(PackageGuids.guidOpenInVsCmdSet, PackageIds.CmdIdOpenInAppProjNode);
+                menuCommandID = new CommandID(PackageGuids.guidOpenInGimpCmdSet, PackageIds.CmdIdOpenInAppProjNode);
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
             }

@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 using System.Runtime.InteropServices;
-using OpenInApp;
+using OpenInPaintDotNet;
 
 [assembly: AssemblyTitle(Vsix.Name)]
 [assembly: AssemblyDescription(Vsix.Description)]

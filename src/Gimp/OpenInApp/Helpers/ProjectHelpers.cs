@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace OpenInApp
+namespace OpenInGimp
 {
     internal static class ProjectHelpers
     {
