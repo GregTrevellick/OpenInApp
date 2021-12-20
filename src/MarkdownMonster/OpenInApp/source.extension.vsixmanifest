@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-	<Metadata>
-		<Identity Id="MFA20CC7-7C8E-4E41-B258-539C067E5649" Version="1.2.15" Language="en-US" Publisher="GregTrevellick" />
-		<DisplayName>Open in Markdown Monster</DisplayName>
-		<Description xml:space="preserve">Open multiple files simultaneously in Markdown Monster directly from Solution Explorer or Code Editor window.</Description>
-		<MoreInfo>https://github.com/GregTrevellick/OpenInApp</MoreInfo>
-		<License>Resources\LICENSE.txt</License>
-		<ReleaseNotes>https://github.com/GregTrevellick/OpenInApp/blob/master/CHANGELOG.md</ReleaseNotes>
-		<Icon>Resources\VsixExtensionIcon_90x90.png</Icon>
-		<PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
-		<Tags>open, open in, MarkdownMonster</Tags>
-	</Metadata>
-	<Installation>
-		<InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,17.0)" />
-		<InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,18.0)">
-			<ProductArchitecture>amd64</ProductArchitecture>
-		</InstallationTarget>
-	</Installation>
-	<Prerequisites>
-		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
-	</Prerequisites>
-	<Assets>
-		<Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
-	</Assets>
+    <Metadata>
+        <Identity Id="MFA20CC7-7C8E-4E41-B258-539C067E5649" Version="1.2.16" Language="en-US" Publisher="GregTrevellick" />
+        <DisplayName>Open in Markdown Monster</DisplayName>
+        <Description xml:space="preserve">Open multiple files simultaneously in Markdown Monster directly from Solution Explorer or Code Editor window.</Description>
+        <MoreInfo>https://github.com/GregTrevellick/OpenInApp</MoreInfo>
+        <License>Resources\LICENSE.txt</License>
+        <ReleaseNotes>https://github.com/GregTrevellick/OpenInApp/blob/master/CHANGELOG.md</ReleaseNotes>
+        <Icon>Resources\VsixExtensionIcon_90x90.png</Icon>
+        <PreviewImage>Resources\VsixExtensionPreview_175x175.png</PreviewImage>
+        <Tags>open, open in, MarkdownMonster</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[11.0,17.0)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[17.0,18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+    </Assets>
 </PackageManifest>
