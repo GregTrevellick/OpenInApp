@@ -28,7 +28,7 @@ namespace OpenInApp
                 var menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppItemNode);
+                menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppCodeWin);
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
