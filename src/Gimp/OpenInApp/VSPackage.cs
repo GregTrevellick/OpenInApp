@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.Shell;
+using OpenInGimp;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;

@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.Shell;
+using OpenInPaintDotNet;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;

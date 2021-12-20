@@ -2,6 +2,7 @@
 using EnvDTE80;
 using Microsoft;
 using Microsoft.VisualStudio.Shell;
+using OpenInMarkdownMonster;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;

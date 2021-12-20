@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.Shell;
+using OpenInMarkdownMonster;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;

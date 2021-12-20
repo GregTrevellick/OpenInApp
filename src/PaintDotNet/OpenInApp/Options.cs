@@ -1,10 +1,10 @@
 ﻿using Microsoft.VisualStudio.Shell;
-////using System;
+using OpenInApp;
 using System.ComponentModel;
 using System.IO;
 using System.Windows.Forms;
 
-namespace OpenInApp
+namespace OpenInPaintDotNet
 {
     public class Options : DialogPage
     {

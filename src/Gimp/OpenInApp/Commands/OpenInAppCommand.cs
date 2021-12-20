@@ -2,6 +2,7 @@
 using EnvDTE80;
 using Microsoft;
 using Microsoft.VisualStudio.Shell;
+using OpenInGimp;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
