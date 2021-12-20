@@ -228,8 +228,9 @@ Software License is available [here](/LICENSE.txt).
 
 ---------------------------------------
 
-[![GIMP](src/Gimp/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninGimp)
-[![Paint Dot Net](src/PaintDotNet/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpeninPaintNet)
+[![GIMP](src/Gimp/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInGimp)
+[![Markdown Monster](src/MarkdownMonster/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInMarkdownMonster)
+[![Paint Dot Net](src/PaintDotNet/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInPaintNet)
 
 ## Legal
 
@@ -264,7 +265,7 @@ Additional thanks to
 - [Build 2016 Conference](https://channel9.msdn.com/Events/Build/2016/B886) 
 - [Visual Studio Toolbox](https://channel9.msdn.com/Shows/Visual-Studio-Toolbox/Extensions-by-Mads-Kristensen)
 - [Screen To Gif](http://www.screentogif.com/) 
-- [Paint Dot Net](http://www.getpaint.net/)  
+- [Paint Dot Net](http://www.getMarkdownMonster/)  
 - [Dot Net Curry](https://github.com/dotnetcurry/grunt-gulp-visualstudio/tree/master/Gulp%20files%20for%20VS%202013)   
 
 

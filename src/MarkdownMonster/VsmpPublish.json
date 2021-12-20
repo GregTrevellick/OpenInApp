@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "assetFiles": [
+    {
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\MarkdownMonster\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_CodeEditorWindow.png",
+      "targetPath": "ReadMeScreenShot_CodeEditorWindow.png"
+    },
+    {
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\MarkdownMonster\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_FolderNode.png",
+      "targetPath": "ReadMeScreenShot_FolderNode.png"
+    },
+    {
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\MarkdownMonster\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_ItemNode.png",
+      "targetPath": "ReadMeScreenShot_ItemNode.png"
+    },
+    {
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\MarkdownMonster\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_ProjNode.png",
+      "targetPath": "ReadMeScreenShot_ProjNode.png"
+    },
+    {
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\MarkdownMonster\\OpenInApp\\VisualStudioMarketPlaceAssets\\ThirdPartyLogo.png",
+      "targetPath": "ThirdPartyLogo.png"
+    },
+    {
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\MarkdownMonster\\OpenInApp\\VisualStudioMarketPlaceAssets\\ThirdPartyScreenShot.png",
+      "targetPath": "ThirdPartyScreenShot.png"
+    }
+  ],
+  "categories": [
+    "Coding",
+    "Modeling",
+    "Other"
+  ],
+  "identity": {
+    "internalName": "OpenInMarkdownMonster"
+  },
+  "overview": "D:\\_git\\OpenInApp\\src\\MarkdownMonster\\OpenInApp\\VisualStudioMarketPlaceAssets\\README.md",
+  "priceCategory": "free",
+  "publisher": "GregTrevellick",
+  "private": false,
+  "qna": true,
+  "repo": "https://github.com/GregTrevellick/OpenInApp"
+}
