@@ -125,9 +125,9 @@
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="VisualStudioMarketPlaceAssets\ReadMeScreenShot_CodeEditorWindow.png" />
-    <Content Include="VisualStudioMarketPlaceAssets\ReadMeScreenShot_FolderNode.png" />
+    <Content Include="VisualStudioMarketPlaceAssets\zReadMeScreenShot_FolderNode.png" />
     <Content Include="VisualStudioMarketPlaceAssets\ReadMeScreenShot_ItemNode.png" />
-    <Content Include="VisualStudioMarketPlaceAssets\ReadMeScreenShot_ProjNode.png" />
+    <Content Include="VisualStudioMarketPlaceAssets\zReadMeScreenShot_ProjNode.png" />
     <Content Include="VisualStudioMarketPlaceAssets\ThirdPartyLogo.png" />
     <Content Include="VisualStudioMarketPlaceAssets\ThirdPartyScreenShot.png" />
   </ItemGroup>

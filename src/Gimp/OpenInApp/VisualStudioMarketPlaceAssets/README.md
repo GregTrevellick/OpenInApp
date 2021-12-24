@@ -2,8 +2,7 @@
 
 Open multiple files simultaneously in [GIMP][ThirdPartyAppHomePage] directly from [Visual Studio's][VisualStudioURL] Code Editor window and / or Solution Explorer.
 
-
- - *If you like this ***FREE*** tool please take a few seconds out to give a star rating below and/or [help others][CharityWareURL]*.
+ - *If you like this ***FREE*** tool please take a few seconds out to give a star rating below*.
 
 Similar "Open In" VS extensions can be found [here](https://marketplace.visualstudio.com/search?term=trevellick&target=VS&sortBy=Relevance).
 
@@ -23,14 +22,6 @@ Similar "Open In" VS extensions can be found [here](https://marketplace.visualst
  
   ![](ReadMeScreenShot_ItemNode.png)
 
-- From solution explorer at folder level
- 
-  ![](ReadMeScreenShot_FolderNode.png)
-
-- From solution explorer at project level
-
-  ![](ReadMeScreenShot_ProjNode.png)
-
 ## Use Cases
 
 The [Visual Studio IDE][VisualStudioURL] has an outstanding and feature-rich editor for a wide range of file types, even in the free "Community" editions, which can be overridden to open a third-party application.
@@ -47,8 +38,5 @@ That said, there may be times when you wish to edit a file in an alternative edi
 
 - You are more familiar with a certain editor's features, or simply have a favourite editor.
 
-
-
 [ThirdPartyAppOfficialLogo]: ThirdPartyLogo.png
 [VisualStudioURL]: https://www.visualstudio.com/
-[CharityWareURL]: https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware
