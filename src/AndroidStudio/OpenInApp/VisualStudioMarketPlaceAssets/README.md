@@ -1,6 +1,6 @@
-[ThirdPartyAppHomePage]: http://www.getpaint.net/
+[ThirdPartyAppHomePage]: https://developer.android.com/studio/index.html
 
-Open multiple files simultaneously in [paint.net][ThirdPartyAppHomePage] directly from [Visual Studio's][VisualStudioURL] Code Editor window and / or Solution Explorer.
+Open multiple files simultaneously in [AndroidStudio][ThirdPartyAppHomePage] directly from [Visual Studio's][VisualStudioURL] Code Editor window and / or Solution Explorer.
 
 
  - *If you like this ***FREE*** tool please take a few seconds out to give a star rating below and/or [help others][CharityWareURL]*.
@@ -13,7 +13,7 @@ Similar "Open In" VS extensions can be found [here](https://marketplace.visualst
 
 ## Features
 
-- Open multiple files simultaneously in [paint.net][ThirdPartyAppHomePage].
+- Open multiple files simultaneously in [AndroidStudio][ThirdPartyAppHomePage].
 
 - Within the code editor window
 
@@ -32,11 +32,11 @@ Similar "Open In" VS extensions can be found [here](https://marketplace.visualst
   ![](ReadMeScreenShot_ProjNode.png)
 
 <!--
-- Warning if attempting to open one or more file types whose extension is not typically associated with [paint.net][ThirdPartyAppHomePage]. The list of typical file extensions is configurable in Tools > Options.
+- Warning if attempting to open one or more file types whose extension is not typically associated with [AndroidStudio][ThirdPartyAppHomePage]. The list of typical file extensions is configurable in Tools > Options.
 
   ![](../Generic_ReadMeScreenShot_WarningNonTypical.png)
 
-- Option to supress the warning message if attempting to open a file whose extension is not typically associated with [paint.net][ThirdPartyAppHomePage].
+- Option to supress the warning message if attempting to open a file whose extension is not typically associated with [AndroidStudio][ThirdPartyAppHomePage].
 
   ![](../Generic_ReadMeScreenShot_OptionsGeneral.png)
 

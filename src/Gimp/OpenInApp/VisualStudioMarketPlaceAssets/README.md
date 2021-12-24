@@ -1,6 +1,6 @@
 [ThirdPartyAppHomePage]: http://www.gimp.org/
 
-Open multiple files and/or folders simultaneously in [GIMP][ThirdPartyAppHomePage] directly from [Visual Studio's][VisualStudioURL] Code Editor window and / or Solution Explorer.
+Open multiple files simultaneously in [GIMP][ThirdPartyAppHomePage] directly from [Visual Studio's][VisualStudioURL] Code Editor window and / or Solution Explorer.
 
 
  - *If you like this ***FREE*** tool please take a few seconds out to give a star rating below and/or [help others][CharityWareURL]*.
@@ -13,7 +13,7 @@ Similar "Open In" VS extensions can be found [here](https://marketplace.visualst
 
 ## Features
 
-- Open multiple files and/or folders simultaneously in [GIMP][ThirdPartyAppHomePage].
+- Open multiple files simultaneously in [GIMP][ThirdPartyAppHomePage].
 
 - Within the code editor window
 

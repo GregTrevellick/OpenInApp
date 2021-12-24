@@ -208,8 +208,8 @@
 
 
 
-
-A [CharityWare][CharityWareURL] repository containing code for use in a series of [Visual Studio][VisualStudioURL] extensions that allow multiple files to be opened simultaneously in third party applications directly from within the [Visual Studio IDE][VisualStudioURL] code editor window and / or Solution Explorer.
+<!--A [CharityWare][CharityWareURL] repository-->
+A repository containing code for use in a series of [Visual Studio][VisualStudioURL] extensions that allow multiple files to be opened simultaneously in third party applications directly from within the [Visual Studio IDE][VisualStudioURL] code editor window and / or Solution Explorer.
 
 The [Visual Studio][VisualStudioURL] extensions are officially available at the [Visual Studio Marketplace][VSMarketplaceUrl].
 
@@ -227,10 +227,11 @@ Software License is available [here](/LICENSE.txt).
 
 
 ---------------------------------------
-
+<!--
 [![GIMP](src/Gimp/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInGimp)
 [![Markdown Monster](src/MarkdownMonster/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInMarkdownMonster)
 [![Paint Dot Net](src/PaintDotNet/OpenInApp/VisualStudioMarketPlaceAssets/ThirdPartyLogo.png)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.OpenInPaintNet)
+-->
 
 ## Legal
 
