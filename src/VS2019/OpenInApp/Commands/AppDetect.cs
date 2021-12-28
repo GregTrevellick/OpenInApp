@@ -34,20 +34,18 @@ namespace OpenInApp
 
             if (result == null)
             {
-                var searchPathsVisualStudio = new List<string>();
+                var additionalSearchPaths = new List<string>();
                 
                 foreach (var searchPath in searchPaths)
                 {
-                    //If not found above search Visual Studio sub-folders
-                    searchPathsVisualStudio.Add(searchPath.Replace(MyConstants.ExeName, $"Common7\\IDE\\{MyConstants.ExeName}"));
-                    searchPathsVisualStudio.Add(searchPath.Replace(MyConstants.ExeName, $"Community\\Common7\\IDE\\{MyConstants.ExeName}"));
-                    searchPathsVisualStudio.Add(searchPath.Replace(MyConstants.ExeName, $"Professional\\Common7\\IDE\\{MyConstants.ExeName}"));
-                    searchPathsVisualStudio.Add(searchPath.Replace(MyConstants.ExeName, $"Enterprise\\Common7\\IDE\\{MyConstants.ExeName}"));        
+                    additionalSearchPaths.Add(searchPath.Replace(MyConstants.ExeName, $"Common7\\IDE\\{MyConstants.ExeName}"));
+                    additionalSearchPaths.Add(searchPath.Replace(MyConstants.ExeName, $"Community\\Common7\\IDE\\{MyConstants.ExeName}"));
+                    additionalSearchPaths.Add(searchPath.Replace(MyConstants.ExeName, $"Professional\\Common7\\IDE\\{MyConstants.ExeName}"));
+                    additionalSearchPaths.Add(searchPath.Replace(MyConstants.ExeName, $"Enterprise\\Common7\\IDE\\{MyConstants.ExeName}"));        
                 }
 
-                result = FindFileInPaths(searchPathsVisualStudio);
+                result = FindFileInPaths(additionalSearchPaths);
             }
-
 
             return result;
         }
