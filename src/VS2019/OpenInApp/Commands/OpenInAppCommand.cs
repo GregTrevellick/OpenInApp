@@ -6,7 +6,9 @@ using OpenInVS2019;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
+using System.Diagnostics;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace OpenInApp
@@ -33,13 +35,15 @@ namespace OpenInApp
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
+                //gregt to be tested
                 //menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
                 //menuItem = new MenuCommand(OpenApp, menuCommandID);
                 //commandService.AddCommand(menuItem);
 
-                //menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppProjNode);
-                //menuItem = new MenuCommand(OpenApp, menuCommandID);
-                //commandService.AddCommand(menuItem);
+                //gregt this works
+                menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppProjNode);
+                menuItem = new MenuCommand(OpenApp, menuCommandID);
+                commandService.AddCommand(menuItem);
             }
         }
 
@@ -62,11 +66,11 @@ namespace OpenInApp
                 var dte = (DTE2)ServiceProvider.GetService(typeof(DTE));
                 Assumes.Present(dte);
 
-                var path = ProjectHelpers.GetSelectedPath(dte);
+                var selectedFilesToOpenPaths = ProjectHelpers.GetSelectedFilesToOpenPaths(dte, true);
 
-                if (!string.IsNullOrEmpty(path))
-                {                   
-                    OpenApp(dte);
+                if (selectedFilesToOpenPaths != null && selectedFilesToOpenPaths.Any())
+                {
+                    OpenApplication(selectedFilesToOpenPaths);
                 }
                 else
                 {
@@ -79,28 +83,25 @@ namespace OpenInApp
             }
         }
 
-        private void OpenApp(DTE2 dte)
+        private void OpenApplication(IList<string> actualArtefactsToBeOpened)
         {
-            EnsurePathExist();
-
-            var actualArtefactsToBeOpened = GetArtefactsToBeOpened(dte);
+            EnsurePathToExeExist();
 
             var arguments = " ";
 
             foreach (var actualArtefactToBeOpened in actualArtefactsToBeOpened)
             {
-                arguments += GetSingleArgument(actualArtefactToBeOpened);
+                arguments += actualArtefactToBeOpened;
+                arguments += " ";
             }
 
-            arguments = arguments.TrimEnd(' ');
-
-            var start = new System.Diagnostics.ProcessStartInfo()
+            var start = new ProcessStartInfo()
             {
-                FileName = $"\"{_options.PathToExe}\"",
                 Arguments = arguments,
                 CreateNoWindow = true,
+                FileName = $"\"{_options.PathToExe}\"",
                 UseShellExecute = false,
-                WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden,
+                WindowStyle = ProcessWindowStyle.Hidden,
             };
 
             using (System.Diagnostics.Process.Start(start))
@@ -108,26 +109,7 @@ namespace OpenInApp
             }
         }
 
-        private static IList<string> GetArtefactsToBeOpened(DTE2 dte)
-        {
-            var result = new List<string>();
-
-            foreach (SelectedItem selectedItem in dte.SelectedItems)
-            {
-                var itemName = selectedItem.ProjectItem.FileNames[0];
-                result.Add(itemName);
-            }
-
-            return result;
-        }
-
-        private static string GetSingleArgument(string argument)
-        {
-            var result = "\"" + argument + "\"";
-            return result + " ";
-        }
-
-        private void EnsurePathExist()
+        private void EnsurePathToExeExist()
         {
             if (File.Exists(_options.PathToExe))
             {
@@ -177,3 +159,21 @@ namespace OpenInApp
         }
     }
 }
+
+
+//private static IList<string> GetArtefactsToBeOpened(DTE2 dte)
+//{
+//    var result = new List<string>();
+//    foreach (SelectedItem selectedItem in dte.SelectedItems)
+//    {
+//        var itemName = selectedItem.ProjectItem.FileNames[0];
+//        result.Add(itemName);
+//    }
+//    return result;
+//}
+
+//private static string GetSingleArgument(string argument)
+//{
+//    var result = "\"" + argument + "\"";
+//    return result + " ";
+//}

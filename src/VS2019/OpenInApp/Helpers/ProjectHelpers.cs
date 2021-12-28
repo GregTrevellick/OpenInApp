@@ -8,7 +8,8 @@ namespace OpenInApp
 {
     internal static class ProjectHelpers
     {
-        public static string GetSelectedPath(DTE2 dte)//, bool openSolutionProjectAsRegularFile)
+        //gregt drop the openSolutionProjectAsRegularFile parameter
+        public static IList<string> GetSelectedFilesToOpenPaths(DTE2 dte, bool openSolutionProjectAsRegularFile)
         {
             var items = (Array)dte.ToolWindows.SolutionExplorer.SelectedItems;
             var files = new List<string>();
@@ -22,22 +23,24 @@ namespace OpenInApp
                     files.Add(item.GetFilePath());
                 }
 
-                //Project proj = selItem.Object as Project;
+                Project proj = selItem.Object as Project;
 
-                //if (proj != null)
-                //{
-                //    return openSolutionProjectAsRegularFile ? $"\"{proj.FileName}\"" : proj.GetRootFolder();
-                //}
+                if (proj != null)
+                {
+                    var result1 = openSolutionProjectAsRegularFile ? $"\"{proj.FileName}\"" : proj.GetRootFolder();
+                    return new List<string> { result1 };
+                }
 
-                //Solution sol = selItem.Object as Solution;
+                Solution sol = selItem.Object as Solution;
 
-                //if (sol != null)
-                //{
-                //    return openSolutionProjectAsRegularFile ? $"\"{sol.FullName}\"" : Path.GetDirectoryName(sol.FileName);
-                //}
+                if (sol != null)
+                {
+                    var result2 = openSolutionProjectAsRegularFile ? $"\"{sol.FullName}\"" : Path.GetDirectoryName(sol.FileName);
+                    return new List<string> { result2 };
+                }
             }
 
-            return files.Count > 0 ? String.Join(" ", files) : null;
+            return files.Count > 0 ? files : null;
         }
 
         public static string GetFilePath(this ProjectItem item)
