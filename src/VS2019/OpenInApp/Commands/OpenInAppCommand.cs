@@ -35,12 +35,10 @@ namespace OpenInApp
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);
 
-                //gregt to be tested
-                //menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
-                //menuItem = new MenuCommand(OpenApp, menuCommandID);
-                //commandService.AddCommand(menuItem);
+                menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppFolderNode);
+                menuItem = new MenuCommand(OpenApp, menuCommandID);
+                commandService.AddCommand(menuItem);
 
-                //gregt this works
                 menuCommandID = new CommandID(PackageGuids.guidOpenInAppCmdSet, PackageIds.CmdIdOpenInAppProjNode);
                 menuItem = new MenuCommand(OpenApp, menuCommandID);
                 commandService.AddCommand(menuItem);

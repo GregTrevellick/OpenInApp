@@ -8,7 +8,6 @@ namespace OpenInApp
 {
     internal static class ProjectHelpers
     {
-        //gregt drop the openSolutionProjectAsRegularFile parameter
         public static IList<string> GetSelectedFilesToOpenPaths(DTE2 dte, bool openSolutionProjectAsRegularFile)
         {
             var items = (Array)dte.ToolWindows.SolutionExplorer.SelectedItems;
