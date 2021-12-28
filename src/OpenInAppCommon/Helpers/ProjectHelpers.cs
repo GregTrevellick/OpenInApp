@@ -6,7 +6,7 @@ using System.IO;
 
 namespace OpenInApp
 {
-    internal static class ProjectHelpers
+    public static class ProjectHelpers
     {
         public static IList<string> GetSelectedFilesToOpenPaths(DTE2 dte, bool openSolutionProjectAsRegularFile)
         {

@@ -102,7 +102,7 @@ namespace OpenInApp
                 return;
             }
 
-            var pathToExeOnDisc = AppDetect.PathToExeOnDisc();
+            var pathToExeOnDisc = AppDetect.PathToExeOnDisc(MyConstants.ExeNameIncFolderWithinProgramFiles, MyConstants.ExeName);
 
             if (!string.IsNullOrEmpty(pathToExeOnDisc))
             {

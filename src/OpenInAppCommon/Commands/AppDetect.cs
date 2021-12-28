@@ -5,13 +5,13 @@ using static System.Environment;
 
 namespace OpenInApp
 {
-    internal static class AppDetect
+    public static class AppDetect
     {
-        internal static string PathToExeOnDisc()
+        public static string PathToExeOnDisc(string MyConstantsExeNameIncFolderWithinProgramFiles, string MyConstantsExeName)
         {
             try
             {
-                var value = GetActualPathToExe();
+                var value = GetActualPathToExe(MyConstantsExeNameIncFolderWithinProgramFiles, MyConstantsExeName);
 
                 if (File.Exists(value))
                 {
@@ -26,9 +26,9 @@ namespace OpenInApp
             }
         }
 
-        private static string GetActualPathToExe()
+        private static string GetActualPathToExe(string MyConstantsExeNameIncFolderWithinProgramFiles, string MyConstantsExeName)
         {
-            var searchPaths = GetSearchPathsForThirdPartyExe();
+            var searchPaths = GetSearchPathsForThirdPartyExe(MyConstantsExeNameIncFolderWithinProgramFiles);
 
             var result = FindFileInPaths(searchPaths);
 
@@ -38,10 +38,10 @@ namespace OpenInApp
                 
                 foreach (var searchPath in searchPaths)
                 {
-                    additionalSearchPaths.Add(searchPath.Replace(MyConstants.ExeName, $"Common7\\IDE\\{MyConstants.ExeName}"));
-                    additionalSearchPaths.Add(searchPath.Replace(MyConstants.ExeName, $"Community\\Common7\\IDE\\{MyConstants.ExeName}"));
-                    additionalSearchPaths.Add(searchPath.Replace(MyConstants.ExeName, $"Professional\\Common7\\IDE\\{MyConstants.ExeName}"));
-                    additionalSearchPaths.Add(searchPath.Replace(MyConstants.ExeName, $"Enterprise\\Common7\\IDE\\{MyConstants.ExeName}"));        
+                    additionalSearchPaths.Add(searchPath.Replace(MyConstantsExeName, $"Common7\\IDE\\{MyConstantsExeName}"));
+                    additionalSearchPaths.Add(searchPath.Replace(MyConstantsExeName, $"Community\\Common7\\IDE\\{MyConstantsExeName}"));
+                    additionalSearchPaths.Add(searchPath.Replace(MyConstantsExeName, $"Professional\\Common7\\IDE\\{MyConstantsExeName}"));
+                    additionalSearchPaths.Add(searchPath.Replace(MyConstantsExeName, $"Enterprise\\Common7\\IDE\\{MyConstantsExeName}"));        
                 }
 
                 result = FindFileInPaths(additionalSearchPaths);
@@ -63,11 +63,11 @@ namespace OpenInApp
             return null;
         }
 
-        private static IEnumerable<string> GetSearchPathsForThirdPartyExe()
+        private static IEnumerable<string> GetSearchPathsForThirdPartyExe(string MyConstantsExeNameIncFolderWithinProgramFiles)
         {
             var searchPaths = new List<string>();
 
-            var paths = GetSpecialFoldersPlusThirdPartyExePath(MyConstants.ExeNameIncFolderWithinProgramFiles).ToList();
+            var paths = GetSpecialFoldersPlusThirdPartyExePath(MyConstantsExeNameIncFolderWithinProgramFiles).ToList();
             searchPaths.AddRange(paths);
 
             searchPaths = DoubleUpForDDrive(searchPaths).ToList();
