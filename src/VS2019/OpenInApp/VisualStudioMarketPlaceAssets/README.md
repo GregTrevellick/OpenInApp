@@ -1,8 +1,10 @@
-[ThirdPartyAppHomePage]: http://www.VS2019.org/
+[ThirdPartyAppOfficialLogo]: ThirdPartyLogo.png
+[ThirdPartyAppHomePage]: https://www.visualstudio.com/
+[VisualStudioURL]: https://www.visualstudio.com/
 
-Open multiple files simultaneously in [VS2019][ThirdPartyAppHomePage] directly from [Visual Studio's][VisualStudioURL] Code Editor window and / or Solution Explorer.
+Open multiple files simultaneously in [VS2019][ThirdPartyAppHomePage] directly from [Visual Studio's][VisualStudioURL] Solution Explorer pane.
 
- - *If you like this ***FREE*** tool please take a few seconds out to give a star rating below*.
+ *If you like this ***FREE*** tool please take a few seconds out to give a star rating*.
 
 Similar "Open In" VS extensions can be found [here](https://marketplace.visualstudio.com/search?term=trevellick&target=VS&sortBy=Relevance).
 
@@ -12,14 +14,12 @@ Similar "Open In" VS extensions can be found [here](https://marketplace.visualst
 
 ## Features
 
-- Open multiple files simultaneously in [VS2019][ThirdPartyAppHomePage].
+ - Open single files
+ - Open mulitple files simultaneously
+ - Open folder
+ - Open project file (e.g. *.csproj) 
+ - Open solution file (e.g. *.sln)
 
-- Within the code editor window
-
-  ![](ReadMeScreenShot_CodeEditorWindow.png)
-
-- From solution explorer at item level
- 
   ![](ReadMeScreenShot_ItemNode.png)
 
 ## Use Cases
@@ -37,6 +37,3 @@ That said, there may be times when you wish to edit a file in an alternative edi
 - Pair programming scenarios where each developer has different preferred editor.
 
 - You are more familiar with a certain editor's features, or simply have a favourite editor.
-
-[ThirdPartyAppOfficialLogo]: ThirdPartyLogo.png
-[VisualStudioURL]: https://www.visualstudio.com/

@@ -124,10 +124,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="VisualStudioMarketPlaceAssets\ReadMeScreenShot_CodeEditorWindow.png" />
     <Content Include="VisualStudioMarketPlaceAssets\ThirdPartyScreenShot.gif" />
-    <Content Include="VisualStudioMarketPlaceAssets\zReadMeScreenShot_FolderNode.png" />
-    <Content Include="VisualStudioMarketPlaceAssets\zReadMeScreenShot_ProjNode.png" />
     <Content Include="VisualStudioMarketPlaceAssets\ReadMeScreenShot_ItemNode.png" />
     <Content Include="VisualStudioMarketPlaceAssets\ThirdPartyLogo.png" />
   </ItemGroup>
