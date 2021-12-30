@@ -145,21 +145,3 @@ namespace OpenInApp
         }
     }
 }
-
-
-//private static IList<string> GetArtefactsToBeOpened(DTE2 dte)
-//{
-//    var result = new List<string>();
-//    foreach (SelectedItem selectedItem in dte.SelectedItems)
-//    {
-//        var itemName = selectedItem.ProjectItem.FileNames[0];
-//        result.Add(itemName);
-//    }
-//    return result;
-//}
-
-//private static string GetSingleArgument(string argument)
-//{
-//    var result = "\"" + argument + "\"";
-//    return result + " ";
-//}

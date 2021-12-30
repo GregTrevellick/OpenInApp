@@ -1,4 +1,6 @@
 [ThirdPartyAppHomePage]: http://www.getMarkdownMonster/
+[ThirdPartyAppOfficialLogo]: ThirdPartyLogo.png
+[VisualStudioURL]: https://www.visualstudio.com/
 
 Open multiple files simultaneously in [MarkdownMonster][ThirdPartyAppHomePage] directly from [Visual Studio's][VisualStudioURL] Code Editor window and / or Solution Explorer.
 
@@ -12,14 +14,12 @@ Similar "Open In" VS extensions can be found [here](https://marketplace.visualst
 
 ## Features
 
-- Open multiple files simultaneously in [MarkdownMonster][ThirdPartyAppHomePage].
+ - Open single files
+ - Open mulitple files simultaneously
+ - Open folder
+ - Open project file (e.g. *.csproj) 
+ - Open solution file (e.g. *.sln)
 
-- Within the code editor window
-
-  ![](ReadMeScreenShot_CodeEditorWindow.png)
-
-- From solution explorer at item level
- 
   ![](ReadMeScreenShot_ItemNode.png)
 
 ## Use Cases
@@ -37,6 +37,3 @@ That said, there may be times when you wish to edit a file in an alternative edi
 - Pair programming scenarios where each developer has different preferred editor.
 
 - You are more familiar with a certain editor's features, or simply have a favourite editor.
-
-[ThirdPartyAppOfficialLogo]: ThirdPartyLogo.png
-[VisualStudioURL]: https://www.visualstudio.com/
