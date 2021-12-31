@@ -11,7 +11,7 @@
 				<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_FOLDER_EXPLORE" />
 				<Icon guid="guidImages" id="bmpPic1" />
 				<Strings>
-					<ButtonText>Open in VS2019</ButtonText>
+					<ButtonText>Open in VS2022</ButtonText>
 				</Strings>
 			</Button>
 		</Buttons>
@@ -46,13 +46,13 @@
 
 	<Symbols>
 		<!-- This is the package guid. -->
-		<GuidSymbol name="guidOpenInAppPackage" value="{389258E7-ADD6-4709-B7F1-A86531AD8579}" />
+		<GuidSymbol name="guidOpenInAppPackage" value="{D10347F7-ACA2-44C9-8953-B25049FB0C1F}" />
 		
-		<GuidSymbol name="guidOpenInAppCmdSet" value="{B35B06F9-568E-4B55-9658-AFF2460FCDDD}">
+		<GuidSymbol name="guidOpenInAppCmdSet" value="{E3195EB1-A8A3-47C6-98A7-5035708BC92D}">
 			<IDSymbol name="OpenInApp" value="0x0100" />
 		</GuidSymbol>
 
-		<GuidSymbol name="guidImages" value="{A9236BBE-3863-4D25-93EA-3DFD40676EF5}" >
+		<GuidSymbol name="guidImages" value="{06DDB44E-1896-4178-8E5F-19826453A2B2}" >
 			<IDSymbol name="bmpPic1" value="1" />
 		</GuidSymbol>
 	</Symbols>

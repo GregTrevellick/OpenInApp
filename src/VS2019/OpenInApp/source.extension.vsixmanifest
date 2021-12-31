@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="DF1DFCDF-E0AD-4084-B535-662FC94748BA" Version="1.2.19" Language="en-US" Publisher="GregTrevellick" />
+        <Identity Id="F131FA59-866A-4630-8031-2F7E6F39D1B8" Version="1.2.20" Language="en-US" Publisher="GregTrevellick" />
         <DisplayName>Open in Visual Studio 2019</DisplayName>
         <Description xml:space="preserve">Open multiple files simultaneously in Visual Studio 2019 Community Edition directly from Solution Explorer window.</Description>
         <MoreInfo>https://github.com/GregTrevellick/OpenInApp</MoreInfo>
