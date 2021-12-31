@@ -31,13 +31,13 @@ namespace OpenInApp
             }
         }
 
-        public string LocateItManually()
+        public string LocateItManually(string myConstantsExeName, string vsixName)
         {
             string dialogFileName = null;
 
             var box = MessageBox.Show(
-                $"Cannot locate {MyConstants.ExeName} executable. Locate it manually?",
-                Vsix.Name,
+                $"Cannot locate {myConstantsExeName} executable. Locate it manually?",
+                vsixName,
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question);
 
@@ -47,7 +47,7 @@ namespace OpenInApp
                 {
                     CheckFileExists = true,
                     DefaultExt = ".exe",
-                    FileName = MyConstants.ExeName,
+                    FileName = myConstantsExeName,
                     InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles),
                 };
 

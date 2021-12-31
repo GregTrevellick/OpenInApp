@@ -88,7 +88,7 @@ namespace OpenInApp
                 }
                 else
                 {
-                    var dialogFileName = _openCmd.LocateItManually();
+                    var dialogFileName = _openCmd.LocateItManually(MyConstants.ExeName, Vsix.Name);
 
                     if (dialogFileName != null)
                     {
