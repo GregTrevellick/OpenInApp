@@ -1,21 +1,13 @@
-﻿//using EnvDTE;
-//using EnvDTE80;
-//using Microsoft;
-//using Microsoft.VisualStudio.Shell;
-//using OpenInVS2019;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
 using System.Diagnostics;
-using System.IO;
-using System.Linq;
 using System.Windows.Forms;
 
 namespace OpenInApp
 {
-    internal sealed partial class OpenInAppCommand
+    public class OpenCmd
     {
-        private void OpenApplicationExe(IList<string> actualArtefactsToBeOpened)
+        public void OpenApplicationExe(IList<string> actualArtefactsToBeOpened, string optionsPathToExe)
         {
             var arguments = " ";
 
@@ -29,7 +21,7 @@ namespace OpenInApp
             {
                 Arguments = arguments,
                 CreateNoWindow = true,
-                FileName = $"\"{_options.PathToExe}\"",
+                FileName = $"\"{optionsPathToExe}\"",
                 UseShellExecute = false,
                 WindowStyle = ProcessWindowStyle.Hidden,
             };
@@ -39,8 +31,10 @@ namespace OpenInApp
             }
         }
 
-        private void LocateItManually()
+        public string LocateItManually()
         {
+            string dialogFileName = null;
+
             var box = MessageBox.Show(
                 $"Cannot locate {MyConstants.ExeName} executable. Locate it manually?",
                 Vsix.Name,
@@ -57,13 +51,15 @@ namespace OpenInApp
                     InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles),
                 };
 
-                var result = dialog.ShowDialog();
+                var dialogResult = dialog.ShowDialog();
 
-                if (result == DialogResult.OK)
+                if (dialogResult == DialogResult.OK)
                 {
-                    SaveOptions(_options, dialog.FileName);
+                    dialogFileName = dialog.FileName;
                 }
             }
+
+            return dialogFileName;
         }
     }
 }

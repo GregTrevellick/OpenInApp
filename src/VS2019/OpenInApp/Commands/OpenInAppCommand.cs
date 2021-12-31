@@ -12,14 +12,16 @@ using System.Windows.Forms;
 
 namespace OpenInApp
 {
-    internal sealed partial class OpenInAppCommand
+    internal sealed class OpenInAppCommand
     {
         private readonly Package _package;
         private readonly Options _options;
+        private readonly OpenCmd _openCmd;
 
         private OpenInAppCommand(Package package, Options options)
         {
             _package = package;
+            _openCmd = new OpenCmd();
             _options = options;
 
             var commandService = (OleMenuCommandService)ServiceProvider.GetService(typeof(IMenuCommandService));
@@ -71,7 +73,7 @@ namespace OpenInApp
         private void OpenApplication(IList<string> actualArtefactsToBeOpened)
         {
             EnsurePathToExeExist();
-            OpenApplicationExe(actualArtefactsToBeOpened);
+            _openCmd.OpenApplicationExe(actualArtefactsToBeOpened, _options.PathToExe);
         }
 
         private void EnsurePathToExeExist()
@@ -86,7 +88,12 @@ namespace OpenInApp
                 }
                 else
                 {
-                    LocateItManually();
+                    var dialogFileName = _openCmd.LocateItManually();
+
+                    if (dialogFileName != null)
+                    {
+                        SaveOptions(_options, dialogFileName);
+                    }
                 }
             }
         }
