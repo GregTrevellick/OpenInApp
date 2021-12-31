@@ -6,14 +6,13 @@ using OpenInVS2019;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.Design;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 
 namespace OpenInApp
 {
-    internal sealed class OpenInAppCommand
+    internal sealed partial class OpenInAppCommand
     {
         private readonly Package _package;
         private readonly Options _options;
@@ -72,68 +71,22 @@ namespace OpenInApp
         private void OpenApplication(IList<string> actualArtefactsToBeOpened)
         {
             EnsurePathToExeExist();
-
-            var arguments = " ";
-
-            foreach (var actualArtefactToBeOpened in actualArtefactsToBeOpened)
-            {
-                arguments += actualArtefactToBeOpened;
-                arguments += " ";
-            }
-
-            var start = new ProcessStartInfo()
-            {
-                Arguments = arguments,
-                CreateNoWindow = true,
-                FileName = $"\"{_options.PathToExe}\"",
-                UseShellExecute = false,
-                WindowStyle = ProcessWindowStyle.Hidden,
-            };
-
-            using (System.Diagnostics.Process.Start(start))
-            {
-            }
+            OpenApplicationExe(actualArtefactsToBeOpened);
         }
 
         private void EnsurePathToExeExist()
         {
-            if (File.Exists(_options.PathToExe))
+            if (!File.Exists(_options.PathToExe))
             {
-                return;
-            }
+                var pathToExeOnDisc = AppDetect.PathToExeOnDisc(MyConstants.ExeNameIncFolderWithinProgramFiles, MyConstants.ExeName);
 
-            var pathToExeOnDisc = AppDetect.PathToExeOnDisc(MyConstants.ExeNameIncFolderWithinProgramFiles, MyConstants.ExeName);
-
-            if (!string.IsNullOrEmpty(pathToExeOnDisc))
-            {
-                SaveOptions(_options, pathToExeOnDisc);
-            }
-            else
-            {
-                var box = MessageBox.Show(
-                    $"Cannot locate {MyConstants.ExeName} executable. Locate it manually?",
-                    Vsix.Name,
-                    MessageBoxButtons.YesNo,
-                    MessageBoxIcon.Question);
-
-                if (box == DialogResult.No)
+                if (!string.IsNullOrEmpty(pathToExeOnDisc))
                 {
-                    return;
+                    SaveOptions(_options, pathToExeOnDisc);
                 }
-
-                var dialog = new OpenFileDialog
+                else
                 {
-                    CheckFileExists = true,
-                    DefaultExt = ".exe",
-                    FileName = MyConstants.ExeName,
-                    InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles),
-                };
-
-                var result = dialog.ShowDialog();
-
-                if (result == DialogResult.OK)
-                {
-                    SaveOptions(_options, dialog.FileName);
+                    LocateItManually();
                 }
             }
         }

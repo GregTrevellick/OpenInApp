@@ -62,6 +62,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Commands\OpenInAppCommand2.cs" />
     <Compile Include="Commands\OpenInAppCommand.cs" />
     <Compile Include="Helpers\MyConstants.cs" />
     <Compile Include="Options.cs">
