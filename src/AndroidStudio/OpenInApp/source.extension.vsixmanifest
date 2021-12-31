@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="5bba97c5-4b25-491d-a209-6d0f2e33a8fc" Version="1.2.19" Language="en-US" Publisher="GregTrevellick" />
         <DisplayName>Open in Android Studio</DisplayName>
-        <Description xml:space="preserve">Open multiple files simultaneously in Android Studio directly from Solution Explorer or Code Editor window.</Description>
+        <Description xml:space="preserve">Open multiple files and more simultaneously in Android Studio directly from Solution Explorer window.</Description>
         <MoreInfo>https://github.com/GregTrevellick/OpenInApp</MoreInfo>
         <License>Resources\LICENSE.txt</License>
         <ReleaseNotes>https://github.com/GregTrevellick/OpenInApp/blob/master/CHANGELOG.md</ReleaseNotes>

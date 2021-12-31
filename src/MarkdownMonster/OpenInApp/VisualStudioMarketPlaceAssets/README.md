@@ -2,7 +2,7 @@
 [ThirdPartyAppOfficialLogo]: ThirdPartyLogo.png
 [VisualStudioURL]: https://www.visualstudio.com/
 
-Open multiple files simultaneously in [MarkdownMonster][ThirdPartyAppHomePage] directly from [Visual Studio's][VisualStudioURL] Code Editor window and / or Solution Explorer.
+Open multiple files simultaneously in [MarkdownMonster][ThirdPartyAppHomePage] directly from [Visual Studio's][VisualStudioURL] Solution Explorer.
 
  - *If you like this ***FREE*** tool please take a few seconds out to give a star rating below*.
 

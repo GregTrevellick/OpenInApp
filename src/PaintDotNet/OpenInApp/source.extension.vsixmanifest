@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="1F26AAE5-DA33-4D31-A5EB-AA424D745321" Version="1.2.19" Language="en-US" Publisher="GregTrevellick" />
         <DisplayName>Open in Paint.NET</DisplayName>
-        <Description xml:space="preserve">Open multiple files simultaneously in Paint.NET directly from Solution Explorer or Code Editor window.</Description>
+        <Description xml:space="preserve">Open multiple files simultaneously in Paint.NET directly from Solution Explorer window.</Description>
         <MoreInfo>https://github.com/GregTrevellick/OpenInApp</MoreInfo>
         <License>Resources\LICENSE.txt</License>
         <ReleaseNotes>https://github.com/GregTrevellick/OpenInApp/blob/master/CHANGELOG.md</ReleaseNotes>

@@ -3,7 +3,7 @@
     <Metadata>
         <Identity Id="DF1DFCDF-E0AD-4084-B535-662FC94748BA" Version="1.2.19" Language="en-US" Publisher="GregTrevellick" />
         <DisplayName>Open in Visual Studio 2019</DisplayName>
-        <Description xml:space="preserve">Open multiple files simultaneously in Visual Studio 2019 Community Edition directly from Solution Explorer or Code Editor window.</Description>
+        <Description xml:space="preserve">Open multiple files simultaneously in Visual Studio 2019 Community Edition directly from Solution Explorer window.</Description>
         <MoreInfo>https://github.com/GregTrevellick/OpenInApp</MoreInfo>
         <License>Resources\LICENSE.txt</License>
         <ReleaseNotes>https://github.com/GregTrevellick/OpenInApp/blob/master/CHANGELOG.md</ReleaseNotes>
