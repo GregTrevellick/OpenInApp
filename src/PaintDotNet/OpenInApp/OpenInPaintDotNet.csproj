@@ -87,6 +87,8 @@
       <LastGenOutput>source.extension.cs</LastGenOutput>
     </None>
     <None Include="VisualStudioMarketPlaceAssets\README.md" />
+    <None Include="VisualStudioMarketPlaceAssets\VsmpPublish.bat" />
+    <None Include="VisualStudioMarketPlaceAssets\VsmpPublish.json" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />

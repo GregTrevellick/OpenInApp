@@ -3,29 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenInPaintDotNet", "OpenInApp\OpenInPaintDotNet.csproj", "{0B1434B0-FA30-469C-8E25-BE99F2D6AE01}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1F3D0298-4C07-41FB-92CC-56EEFAB440C2}"
-	ProjectSection(SolutionItems) = preProject
-		..\appveyor.yml = ..\appveyor.yml
-		..\azure-pipelines.yml = ..\azure-pipelines.yml
-		..\..\README.md = ..\..\README.md
-		VsmpPublish.bat = VsmpPublish.bat
-		VsmpPublish.json = VsmpPublish.json
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Generic", "Generic", "{00503434-6495-4367-832D-1F6B2BEF8519}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\.gitattributes = ..\..\.gitattributes
-		..\..\.gitignore = ..\..\.gitignore
-		..\..\.sonarcloud.properties = ..\..\.sonarcloud.properties
-		..\..\_config.yml = ..\..\_config.yml
-		..\..\greenkeeper.json = ..\..\greenkeeper.json
-		..\..\LICENSE.txt = ..\..\LICENSE.txt
-		..\..\renovate.json = ..\..\renovate.json
-	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenInAppTestHarness", "..\OpenInAppTestHarness\OpenInAppTestHarness.csproj", "{12C3E04C-AAEE-4146-86ED-64942BD250EB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenInPaintDotNet", "OpenInApp\OpenInPaintDotNet.csproj", "{669BF958-6357-49B1-8132-EDD4EB902515}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenInAppCommon", "..\OpenInAppCommon\OpenInAppCommon.csproj", "{97C047C3-460A-44D8-BF34-F08EDE019C4A}"
 EndProject
@@ -35,14 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B1434B0-FA30-469C-8E25-BE99F2D6AE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0B1434B0-FA30-469C-8E25-BE99F2D6AE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0B1434B0-FA30-469C-8E25-BE99F2D6AE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0B1434B0-FA30-469C-8E25-BE99F2D6AE01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{12C3E04C-AAEE-4146-86ED-64942BD250EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{12C3E04C-AAEE-4146-86ED-64942BD250EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{12C3E04C-AAEE-4146-86ED-64942BD250EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{12C3E04C-AAEE-4146-86ED-64942BD250EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669BF958-6357-49B1-8132-EDD4EB902515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669BF958-6357-49B1-8132-EDD4EB902515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669BF958-6357-49B1-8132-EDD4EB902515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669BF958-6357-49B1-8132-EDD4EB902515}.Release|Any CPU.Build.0 = Release|Any CPU
 		{97C047C3-460A-44D8-BF34-F08EDE019C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{97C047C3-460A-44D8-BF34-F08EDE019C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97C047C3-460A-44D8-BF34-F08EDE019C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -50,9 +24,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{00503434-6495-4367-832D-1F6B2BEF8519} = {1F3D0298-4C07-41FB-92CC-56EEFAB440C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6CBD576-83EC-4DA7-9AFC-2DF85811D93A}

@@ -2,10 +2,6 @@
   "$schema": "http://json.schemastore.org/vsix-publish",
   "assetFiles": [
     {
-      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\VS2019\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_CodeEditorWindow.png",
-      "targetPath": "ReadMeScreenShot_CodeEditorWindow.png"
-    },
-    {
       "pathOnDisk": "D:\\_git\\OpenInApp\\src\\VS2019\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_ItemNode.png",
       "targetPath": "ReadMeScreenShot_ItemNode.png"
     },
