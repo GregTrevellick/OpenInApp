@@ -7,11 +7,11 @@ namespace OpenInApp
 {
     internal sealed partial class Vsix
     {
-        public const string Id = "DF1DFCDF-E0AD-4084-B535-662FC94748BA";
+        public const string Id = "79692B23-2EBE-4EAF-861E-2EAFAC6F6C61";
         public const string Name = "Open in Visual Studio 2022";
-        public const string Description = @"Open multiple files simultaneously in Visual Studio 2022 Community Edition directly from Solution Explorer window.";
+        public const string Description = @"Open multiple files simultaneously in Visual Studio 2022 directly from Solution Explorer window.";
         public const string Language = "en-US";
-        public const string Version = "1.2.19";
+        public const string Version = "1.2.21";
         public const string Author = "GregTrevellick";
         public const string Tags = "VS2022, Visual Studio 2022";
     }

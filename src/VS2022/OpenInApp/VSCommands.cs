@@ -12,13 +12,13 @@ namespace OpenInApp
     /// </summary>
     internal sealed partial class PackageGuids
     {
-        public const string guidOpenInAppPackageString = "98a5f044-8658-436d-9077-964615402f6a";
+        public const string guidOpenInAppPackageString = "d10347f7-aca2-44c9-8953-b25049fb0c1f";
         public static Guid guidOpenInAppPackage = new Guid(guidOpenInAppPackageString);
 
-        public const string guidOpenInAppCmdSetString = "caff4f85-8904-4dde-8e43-1ddaf8ff68c2";
+        public const string guidOpenInAppCmdSetString = "e3195eb1-a8a3-47c6-98a7-5035708bc92d";
         public static Guid guidOpenInAppCmdSet = new Guid(guidOpenInAppCmdSetString);
 
-        public const string guidImagesString = "32deffa5-7c78-48b6-9867-4233117f59a1";
+        public const string guidImagesString = "06ddb44e-1896-4178-8e5f-19826453a2b2";
         public static Guid guidImages = new Guid(guidImagesString);
     }
     /// <summary>
