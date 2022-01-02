@@ -12,7 +12,7 @@ namespace OpenInApp
         public const string Description = @"Open multiple files simultaneously in Visual Studio 2022 directly from Solution Explorer window.";
         public const string Language = "en-US";
         public const string Version = "1.2.21";
-        public const string Author = "GregTrevellick";
+        public const string Author = "Greg Trevellick";
         public const string Tags = "VS2022, Visual Studio 2022";
     }
 }
