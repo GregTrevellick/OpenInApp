@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<Extern href="stdidcmd.h"/>
+	<Extern href="vsshlids.h"/>
+	<Include href="KnownImageIds.vsct"/>
+
+	<Commands package="guidOpenInAppPackage">
+		<Buttons>
+			<Button guid="guidOpenInAppCmdSet" id="OpenInApp" priority="0x0500" type="Button">
+				<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_FOLDER_EXPLORE" />
+				<Icon guid="guidImages" id="bmpPic1" />
+				<Strings>
+					<ButtonText>Open in VS2012</ButtonText>
+				</Strings>
+			</Button>
+		</Buttons>
+		<Bitmaps>
+			<Bitmap guid="guidImages" href="Resources\VsixCommandIcon_16x16.png" usedList="bmpPic1"/>
+		</Bitmaps>
+	</Commands>
+
+	<CommandPlacements>
+		<CommandPlacement guid="guidOpenInAppCmdSet" id="OpenInApp" priority="0x0500">
+			<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_SOLUTION_EXPLORE" />
+		</CommandPlacement>
+		<CommandPlacement guid="guidOpenInAppCmdSet" id="OpenInApp" priority="0x0500">
+			<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_PROJECT_EXPLORE" />
+		</CommandPlacement>
+		<CommandPlacement guid="guidOpenInAppCmdSet" id="OpenInApp" priority="0x0500">
+			<Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_ITEM_OPEN" />
+		</CommandPlacement>	
+		<CommandPlacement guid="guidOpenInAppCmdSet" id="OpenInApp" priority="0x0500">
+			<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_ITEMNODE" />
+		</CommandPlacement>
+		<!--<CommandPlacement guid="guidOpenInAppCmdSet" id="OpenInApp" priority="0x0100">
+			<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_CODEWIN" />
+		</CommandPlacement>-->
+		<!--<CommandPlacement guid="guidOpenInAppCmdSet" id="OpenInApp" priority="0x0100">
+			<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_FOLDERNODE" />
+		</CommandPlacement>-->
+		<!--<CommandPlacement guid="guidOpenInAppCmdSet" id="OpenInApp" priority="0x0100">
+			<Parent guid="guidSHLMainMenu" id="IDM_VS_CTXT_PROJNODE" />
+		</CommandPlacement>-->
+	</CommandPlacements>
+
+	<Symbols>
+		<!-- This is the package guid. -->
+		<GuidSymbol name="guidOpenInAppPackage" value="{F34468E4-3CE4-4F5E-A9B0-B390B84E2A6E}" />
+		
+		<GuidSymbol name="guidOpenInAppCmdSet" value="{62033A5B-E1FF-48BA-8734-43A45235D907}">
+			<IDSymbol name="OpenInApp" value="0x0100" />
+		</GuidSymbol>
+
+		<GuidSymbol name="guidImages" value="{BBC10BF1-F396-4733-8467-742EDD3C9A48}" >
+			<IDSymbol name="bmpPic1" value="1" />
+		</GuidSymbol>
+	</Symbols>
+</CommandTable>

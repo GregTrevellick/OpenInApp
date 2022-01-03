@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-publish",
+  "assetFiles": [
+    {
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\VS2013\\OpenInApp\\VisualStudioMarketPlaceAssets\\ReadMeScreenShot_ItemNode.png",
+      "targetPath": "ReadMeScreenShot_ItemNode.png"
+    },
+    {
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\VS2013\\OpenInApp\\VisualStudioMarketPlaceAssets\\ThirdPartyLogo.png",
+      "targetPath": "ThirdPartyLogo.png"
+    },
+    {
+      "pathOnDisk": "D:\\_git\\OpenInApp\\src\\VS2013\\OpenInApp\\VisualStudioMarketPlaceAssets\\ThirdPartyScreenShot.png",
+      "targetPath": "ThirdPartyScreenShot.png"
+    }
+  ],
+  "categories": [
+    "Coding",
+    "Modeling",
+    "Other"
+  ],
+  "identity": {
+    "internalName": "OpeninVS2013-GNUImageManipulationProgram"
+  },
+  "overview": "D:\\_git\\OpenInApp\\src\\VS2013\\OpenInApp\\VisualStudioMarketPlaceAssets\\README.md",
+  "priceCategory": "free",
+  "publisher": "GregTrevellick",
+  "private": false,
+  "qna": true,
+  "repo": "https://github.com/GregTrevellick/OpenInApp"
+}
