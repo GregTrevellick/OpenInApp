@@ -7,7 +7,7 @@ namespace OpenInApp
 {
     internal sealed partial class Vsix
     {
-        public const string Id = "51818B3F-32D2-4538-BB5B-73A4BEDCB8B5";
+        public const string Id = "EB89603B-1419-4A7D-A540-06C33DA7AC6B";
         public const string Name = "Open in Visual Studio 2015";
         public const string Description = @"Open multiple files simultaneously in Visual Studio 2015 directly from Solution Explorer window.";
         public const string Language = "en-US";
